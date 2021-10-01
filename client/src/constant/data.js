@@ -20,115 +20,128 @@ export const bannerData = [
 export const dealData = [
     { 
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/200/200/khf63680/cases-covers/back-cover/d/7/g/spigen-acs02256-original-imafxfgbffqaugur.jpeg?q=70', 
-        detailUrl: '',
+        url: 'https://cdn.shopify.com/s/files/1/0046/8752/8024/products/IC1.5_02_wht_ca7ce882-c551-4775-9d68-910e8871ac6d_400x.jpg?v=1619194893', 
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
         title: {
-            shortTitle: 'Mobile Covers'
+            shortTitle: 'Inspire IC1.5 Indoor Cycle',
+            longTitle: 'Inspire'
         }, 
+        price: {
+            mrp: 21195,
+            cost: 26255,
+            discount: '47%'
+        },
+        // quantity: 1,
+        // description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
         discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        // tagline: 'Deal of the day' 
     },
     { 
         id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/200/200/k5lcvbk0/moisturizer-cream/9/w/g/600-body-lotion-aloe-hydration-for-normal-skin-nivea-lotion-original-imafz8jb3ftt8gf9.jpeg?q=70', 
+        url: 'https://cdn.shopify.com/s/files/1/0046/8752/8024/products/DBHR550SET__54861_d130e685-079a-480d-905c-2ad899f042ee_400x.jpg?v=1619197139', 
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
         title: {
-            shortTitle: 'Skin & Hair Care'
+            shortTitle: 'Rubber Hex Dumbbell set | 5-50Lbs',
+            longTitle: 'Top Fitness'
         },
+        price: {
+            mrp: 14990,
+            cost: 18990,
+            discount: '40%'
+        },
+        // quantity: 1,
+        // description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
         discount: 'From 99+5% Off', 
-        tagline: 'Shampoos, Face Washes & More' 
+        // tagline: 'Pestige, Nova & more' 
     },
     { 
         id: 'product3',
-        url: 'https://rukminim1.flixcart.com/flap/200/200/image/74bc985c62f19245.jpeg?q=70', 
+        url: 'https://cdn.shopify.com/s/files/1/0046/8752/8024/products/TRM_223_Side__03225_fbfa8429-305f-4ced-a3e3-9e41e5a4f1b9_400x.jpg?v=1620181826', 
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
         title: {
-            shortTitle: 'Skybags & Safari'
+            shortTitle: 'Precor TRM 223 Treadmill',
+            longTitle: 'Precor'
         }, 
+        price: {
+            mrp: 20499,
+            cost: 31660,
+            discount: '66%'
+        },
+        // quantity: 1,
+        // description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
         discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        // tagline: 'Deal of the Day' 
     },
     { 
         id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
+        url: 'https://n2.sdlcdn.com/imgs/j/t/i/large/RIO-PORT-30-kg-Exercise-SDL488914845-1-6e226.jpeg', 
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
         title: {
-            shortTitle: 'Smart Watches',
-            longTitle: 'Molife Sense 500 Smartwatch  (Black Strap, Freesize)',
+            shortTitle: 'RIO PORT 30kg Exercise Sets Home',
+            longTitle: 'Gym Combo',
         }, 
         price: {
-            mrp: 6999,
-            cost: 4049,
+            mrp: 3199,
+            cost: 8249,
             discount: '42%'
         },
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
+        // quantity: 1,
+        // description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
         discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+        // tagline: 'Best Seller' 
     },
     { 
         id: 'product5',
-        url: 'https://rukminim1.flixcart.com/flap/150/150/image/b616a7aa607d3be0.jpg?q=70', 
+        url: 'https://n2.sdlcdn.com/imgs/j/v/s/large/VINTO-PRO-WORKOUT-5-KG-SDL616926627-1-e11d6.webp',
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70', 
         title: {
-            shortTitle: 'Sports & Fitness Essentials'
+            shortTitle: 'Vinto Pro Workout 5kg Hex Dumbbell ',
+            longTitle: 'Vinto Equipments'
         }, 
-        discount: 'Upto 80% Off', 
-        tagline: 'Ab Exerciser, Yoga & more' 
+        price: {
+            mrp: 1099,
+            cost: 2124,
+            discount: '40%'
+        },
+        // quantity: 1,
+        // description: '',
+        discount: 'From ₹499', 
+        // tagline: 'Kubra, Nova & more' 
+    },
+    { 
+        id: 'product6',
+        url: 'https://cdlnws.a.ssl.fastly.net/image/upload/c_lpad,dpr_auto,f_auto,h_300,q_auto:low,w_300/content/rqtr7oboq86tpq8soid1.jpg',
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70', 
+        title: {
+            shortTitle: 'Todo Portable Exercise Bike',
+            longTitle: 'Todo Fitness'
+        }, 
+        price: {
+            mrp: 2250,
+            cost: 4199,
+            discount: '46%'
+        },
+        // quantity: 1,
+        // description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
+        discount: 'Minimum 40% Off', 
+        // tagline: 'Top Selling' 
+    },
+    { 
+        id: 'product7',
+        url: 'https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1103576%2Fa45bbc6bdd8fb719bae1f5842038499d%2Fp1103576.jpg%3Fformat%3Dauto&w=1920&q=75',
+        // detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70', 
+        title: {
+            shortTitle: 'Weight Training Squat/Chin-ups Rack 500',
+            longTitle: 'Decathlon'
+        }, 
+        price: {
+            mrp: 16990,
+            cost: 13990,
+            discount: '59%'
+        },
+        // quantity: 1,
+        // description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
+        discount: 'Minimum 50% Off', 
+        // tagline: 'Grab Now!' 
     }
-];
-
-export const furnitureData = [
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/ke7ff680/hammock-swing/j/f/u/q3-jkaf-y3l0-furniture-kart-original-imafux96kpy7grch.jpeg?q=70', 
-        title: {
-            shortTitle: 'Hammock And Swings'
-        }, 
-        discount: 'From ₹199', 
-        tagline: 'Trendy Collection' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70', 
-        title: {
-            shortTitle: 'Bean Bag Covers'
-        }, 
-        discount: 'Min 80% Off', 
-        tagline: 'XL, XXL & More' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jlcmavk0/aquarium-tank/s/4/5/usb-desktop-aquarium-with-running-water-calendar-temperature-and-original-imaf8hv4nkv55gx8.jpeg?q=70', 
-        title: {
-            shortTitle: 'Aquarium Tank'
-        }, 
-        discount: 'From ₹299', 
-        tagline: 'Flat, Round, Cube & More' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jffpoy80/office-study-chair/v/v/z/pp-am-5001cb-apex-original-imaf3u8rbr5cdycv.jpeg?q=70', 
-        title: {
-            shortTitle: 'Office & Study Chairs'
-        }, 
-        discount: 'Min 50% Off', 
-        tagline: 'Fabric & Leatherette' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jvcp9jk0/recliner/z/w/x/brown-top-grain-leather-sf7018011-1-royaloak-original-imafg9s9hh9vzpf3.jpeg?q=70', 
-        title: {
-            shortTitle: 'Recliner'
-        }, 
-        discount: 'From ₹4999', 
-        tagline: 'Bantia, RoyalOak & More' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jlqwpe80-1/tv-entertainment-unit/d/t/f/particle-board-holland-tv-unit-black-forzza-black-original-imaf8t5ybywcdtys.jpeg?q=70', 
-        title: {
-            shortTitle: 'Tv Units'
-        }, 
-        discount: 'From ₹2100', 
-        tagline: 'Forzza, Zuari & more' 
-    },
-    { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70', 
-        title: {
-            shortTitle: 'Inflatable Sofas'
-        }, 
-        discount: 'Min 50% Off', 
-        tagline: 'Furn Central & more' 
-    },
 ];
