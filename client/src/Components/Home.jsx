@@ -36,25 +36,49 @@ const Home = () => {
                 <MidSection />
                 <Slide
                     data={products} 
-                    title='Discounts for You'
+                    title='Treadmill'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
                     data={products} 
-                    title='Suggested Items'
+                    title='Elliptical'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
                     data={products} 
-                    title='Top Selection'
+                    title='Dumbbells'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
                     data={products} 
-                    title='Recommended Items'
+                    title='Exercise Bikes'
+                    timer={false} 
+                    multi={true} 
+                />
+                <Slide
+                    data={products} 
+                    title='Exercise Plates'
+                    timer={false} 
+                    multi={true} 
+                />
+                <Slide
+                    data={products} 
+                    title='Supplements'
+                    timer={false} 
+                    multi={true} 
+                />
+                <Slide
+                    data={products} 
+                    title='Workout Plans'
+                    timer={false} 
+                    multi={true} 
+                />
+                <Slide
+                    data={products} 
+                    title='Nutrition'
                     timer={false} 
                     multi={true} 
                 />

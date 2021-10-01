@@ -2,9 +2,9 @@ import { Box, makeStyles, Grid } from '@material-ui/core';
 import clsx from 'clsx';
 
 const ImageURL = [
-    'https://rukminim1.flixcart.com/flap/960/960/image/2f30db9425df5cec.jpg?q=50',
-    'https://rukminim1.flixcart.com/flap/960/960/image/084789479074d2b2.jpg',
-    'https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50'
+    'https://iide.co/wp-content/uploads/2019/09/MuscleBlaze-Marketing-Strategy.png',
+    'https://www.schultzfitness.com/wp-content/uploads/2021/04/SCHULTZ-MULTI-STATION-POWER-RACK-GSX600R.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooRG1W8l-fPwYm9ERjLHBv8Vu_V_UFpHimA&usqp=CAU'
 ];
 
 const useStyle = makeStyles(theme => ({
@@ -14,7 +14,8 @@ const useStyle = makeStyles(theme => ({
         justifyContent: 'space-between'
     },
     image: {
-        width: '100%'
+        width: '100%',
+        height: '60%'
     },
     help: {
         [theme.breakpoints.down('md')]: {
@@ -38,7 +39,7 @@ const MidSection = () => {
                     ))
                 }
             </Grid>
-            <img src={url} className={clsx(classes.wrapper, classes.help)} style={{width: '100%'}} />
+            {/* <img src={url} className={clsx(classes.wrapper, classes.help)} style={{width: '100%'}} /> */}
         </>
     )
 }
