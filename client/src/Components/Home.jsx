@@ -6,7 +6,8 @@ import MidSection from './Home/MidSection';
 import Slide from './Home/Slide';
 import React,  { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux'; // hooks
-import { getProducts as listProducts } from '../redux/actions/productActions';
+// import { getProducts as listProducts } from '../redux/actions/productActions';
+import {dealData as products} from "../constant/data";
 
 const useStyle = makeStyles({
     component: {
@@ -18,14 +19,14 @@ const useStyle = makeStyles({
 const Home = () => {
     const classes = useStyle();
 
-    const getProducts = useSelector(state => state.getProducts);
-    const { products, error } = getProducts;
+    // const getProducts = useSelector(state => state.getProducts);
+    // const { products, error } = getProducts;
 
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(listProducts())
-    }, [dispatch])
+    // useEffect(() => {
+    //     dispatch(listProducts())
+    // }, [dispatch])
 
     return (
         <>

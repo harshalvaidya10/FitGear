@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 import Countdown from 'react-countdown';
 import { Link } from 'react-router-dom';
-
+// import {dealData as data} from '../../constant/data';
 
 const responsive = {
     desktop: {
@@ -86,7 +86,7 @@ const MultiSlide = ({ data, timer, title }) => {
                 <Button variant="contained" color="primary" className={classes.button}>View All</Button>
             </Box>
             <Divider />
-            {/* <Carousel
+            <Carousel
                 swipeable={false}
                 draggable={false}
                 responsive={responsive}
@@ -113,7 +113,7 @@ const MultiSlide = ({ data, timer, title }) => {
                         </Link>
                     ))
                 }
-            </Carousel> */}
+            </Carousel>
         </Box>
     )
 }

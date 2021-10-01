@@ -68,11 +68,11 @@ const CustomButtons = () => {
         <Box className={classes.wrapper}>
             {
                 account ? <Profile account={account} setAccount={setAccount} /> : 
-                <Link>
+                <Link to='/'>
                     <Button className={classes.login} variant="contained" onClick={() => openDialog() }>Login</Button>
                 </Link>
             }
-            <Link>
+            <Link to='/'>
                 <Typography style={{ marginTop: 2 }}>More</Typography>
             </Link>
             <Link to='/cart' className={classes.container}>
