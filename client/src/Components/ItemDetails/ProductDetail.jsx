@@ -25,14 +25,14 @@ const useStyle = makeStyles({
 
 const ProductDetail = ({ product }) => {
     const classes = useStyle();
-    const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
+    // const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
     const date = new Date(new Date().getTime()+(5*24*60*60*1000));
     
     return (
         <>
             <Typography>Available offers</Typography>
             <Box className={classes.smallText}>
-                <Typography><Badge className={classes.badge} />Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card</Typography>
+                <Typography><Badge className={classes.badge} />Bank Offer 5% Unlimited Cashback on Axis Bank Credit Card</Typography>
                 <Typography><Badge className={classes.badge} />Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply</Typography>
                 <Typography><Badge className={classes.badge} />Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs</Typography>
                 <Typography><Badge className={classes.badge} />Partner OfferExtra 10% off upto ₹500 on next furniture purchase</Typography>
@@ -57,7 +57,7 @@ const ProductDetail = ({ product }) => {
                     </TableRow>
                     <TableRow>
                         <TableCell colSpan={2}>
-                            <img src={adURL} style={{ width: 390 }} />
+                            {/* <img src={adURL} style={{ width: 390 }} /> */}
                         </TableCell>
                     </TableRow>
                     <TableRow className={classes.smallText}>
