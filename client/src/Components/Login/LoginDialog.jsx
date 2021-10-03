@@ -151,8 +151,8 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
                     {
                         account.view === 'login' ? 
                         <Box className={classes.login}>
-                            <TextField onChange={(e) => onValueChange(e)} name='username' label='Enter Email/Mobile number' />
-                            { error && <Typography className={classes.error}>Please enter valid Email ID/Mobile number</Typography> }
+                            <TextField onChange={(e) => onValueChange(e)} name='username' label='Enter Username' />
+                            { error && <Typography className={classes.error}>Please enter valid Username</Typography> }
                             <TextField onChange={(e) => onValueChange(e)} name='password' label='Enter Password' />
                             <Typography className={classes.text}>By continuing, you agree to FitGear's Terms of Use and Privacy Policy.</Typography>
                             <Button className={classes.loginbtn} onClick={() => loginUser()} >Login</Button>

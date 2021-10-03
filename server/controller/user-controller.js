@@ -21,6 +21,7 @@ export const userSignUp = async (request, response) => {
 export const userLogIn = async (request, response) => {
     try {
         let user = await User.findOne({ username: request.body.username, password: request.body.password });
+        console.log(`User: ${request.body.username}`);
         if(user) {
             return response.status(200).json(`${request.body.username} login successfull`);
         } else {
