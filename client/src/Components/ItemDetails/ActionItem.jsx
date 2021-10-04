@@ -34,7 +34,7 @@ const useStyle = makeStyles(theme => ({
         color: '#FFF'
     },
     buyNow:{
-        background: '#fb641b',
+        background: '#3CB371',
         color: '#FFF'
     }
 }));

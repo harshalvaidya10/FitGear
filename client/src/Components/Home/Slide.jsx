@@ -51,7 +51,8 @@ const useStyle = makeStyles(theme => ({
     },
     button: {
         marginLeft: 'auto',
-        backgroundColor: '#2874f0',
+        backgroundColor: '#404040',
+        color: "#fff",
         borderRadius: 2,
         fontSize: 13
     },
@@ -83,7 +84,7 @@ const MultiSlide = ({ data, timer, title }) => {
                                 <Countdown date={Date.now() + 5.04e+7} renderer={renderer} />
                         </Box>
                 }
-                <Button variant="contained" color="primary" className={classes.button}>View All</Button>
+                <Button variant="contained" color="" className={classes.button}>View All</Button>
             </Box>
             <Divider />
             <Carousel

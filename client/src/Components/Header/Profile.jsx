@@ -6,6 +6,7 @@ import { PowerSettingsNew } from '@material-ui/icons';
 const useStyle = makeStyles({
     component: {
         marginTop: 40,
+        color: '#ef0107'
     },
     logout: {
         fontSize: 14,
@@ -39,7 +40,7 @@ const Profile = ({ account, setAccount }) => {
                 className={classes.component}
             >
                 <MenuItem onClick={() => { handleClose(); logout();}}>
-                    <PowerSettingsNew fontSize='small' color='primary'/> 
+                    <PowerSettingsNew fontSize='small' style={{color:'#EF0107'}}/> 
                     <Typography className={classes.logout}>Logout</Typography>
                 </MenuItem>
             </Menu>
