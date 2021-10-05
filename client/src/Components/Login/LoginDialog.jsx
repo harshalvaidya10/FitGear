@@ -153,7 +153,7 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
                         <Box className={classes.login}>
                             <TextField onChange={(e) => onValueChange(e)} name='username' label='Enter Username' />
                             { error && <Typography className={classes.error}>Please enter valid Username</Typography> }
-                            <TextField onChange={(e) => onValueChange(e)} name='password' label='Enter Password' />
+                            <TextField onChange={(e) => onValueChange(e)} type='password' name='password' label='Enter Password' />
                             <Typography className={classes.text}>By continuing, you agree to FitGear's Terms of Use and Privacy Policy.</Typography>
                             <Button className={classes.loginbtn} onClick={() => loginUser()} >Login</Button>
                             <Typography className={classes.text} style={{textAlign:'center'}}>OR</Typography>
@@ -165,7 +165,7 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
                             <TextField onChange={(e) => onInputChange(e)} name='lastname' label='Enter Lastname' />
                             <TextField onChange={(e) => onInputChange(e)} name='username' label='Enter Username' />
                             <TextField onChange={(e) => onInputChange(e)} name='email' label='Enter Email' />
-                            <TextField onChange={(e) => onInputChange(e)} name='password' label='Enter Password' />
+                            <TextField onChange={(e) => onInputChange(e)} type='password' name='password' label='Enter Password' /> 
                             <TextField onChange={(e) => onInputChange(e)} name='phone' label='Enter Phone' />
                             <Button className={classes.loginbtn} onClick={() => signupUser()} >Continue</Button>
                         </Box>
