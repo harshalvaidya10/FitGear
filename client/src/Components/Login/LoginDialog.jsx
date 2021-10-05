@@ -51,7 +51,7 @@ const useStyle = makeStyles({
         fontSize: 12
     },
     createText: {
-        margin: 'auto 0 5px 0',
+        margin: '20px 0 5px 0',
         textAlign: 'center',
         color: '#000000',   // changed color
         fontWeight: 600,
@@ -156,8 +156,8 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
                             <TextField onChange={(e) => onValueChange(e)} type='password' name='password' label='Enter Password' />
                             <Typography className={classes.text}>By continuing, you agree to FitGear's Terms of Use and Privacy Policy.</Typography>
                             <Button className={classes.loginbtn} onClick={() => loginUser()} >Login</Button>
-                            <Typography className={classes.text} style={{textAlign:'center'}}>OR</Typography>
-                            <Button className={classes.requestbtn}>Request OTP</Button>
+            
+                            
                             <Typography className={classes.createText} onClick={() => toggleSignup()}>New to FitGear? Create an account</Typography>
                         </Box> : 
                         <Box className={classes.login}>
