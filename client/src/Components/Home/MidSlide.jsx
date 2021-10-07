@@ -6,7 +6,7 @@ const useStyle = makeStyles(theme => ({
         display: 'flex'
     },
     leftComponent: {
-        width: '83%',
+        width: '100%',
         [theme.breakpoints.down('md')]: {
             width: '100%'
         }
@@ -26,7 +26,7 @@ const useStyle = makeStyles(theme => ({
 const MidSlide = ({ products }) => {
     const classes = useStyle();
     // const adURL = 'https://rukminim1.flixcart.com/flap/464/708/image/633789f7def60050.jpg?q=70';
-    const adURL = 'https://gmnhealthcare.com/wp-content/uploads/2021/02/Amazon-2.jpg';
+    // const adURL = 'https://gmnhealthcare.com/wp-content/uploads/2021/02/Amazon-2.jpg';
 
     return (
         <Box className={classes.component}>
@@ -38,9 +38,9 @@ const MidSlide = ({ products }) => {
                     multi={true} 
                 />
             </Box>
-            <Box className={classes.rightComponent}>
+            {/* <Box className={classes.rightComponent}>
                 <img src={adURL} style={{width: 300}}/>
-            </Box>
+            </Box> */}
         </Box>
     )
 }
