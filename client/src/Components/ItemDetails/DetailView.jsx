@@ -97,7 +97,7 @@ const DetailView = ({ history, match }) => {
                         <ActionItem product={product} />
                     </Grid>
                     <Grid item lg={8} md={8} sm={8} xs={12} className={classes.rightContainer}>
-                        <Typography>{product.title.longTitle}</Typography>
+                        <Typography>{product.title.shortTitle}</Typography>
                         <Typography className={clsx(classes.greyTextColor, classes.smallText)} style={{marginTop: 5}}>
                             8 Ratings & 1 Reviews
                             {/* <span><img src={fassured} style={{width: 77, marginLeft: 20}} /></span> */}

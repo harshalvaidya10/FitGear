@@ -12,6 +12,8 @@ import { treadmillData } from '../constant/data';
 import { ellipticalData } from '../constant/data';
 import { dumbbellData } from '../constant/data';
 import { bikesData } from '../constant/data';
+import { platesData } from '../constant/data';
+import {supplementsData} from '../constant/data'
 const useStyle = makeStyles({
     component: {
         padding: 10,
@@ -63,13 +65,13 @@ const Home = () => {
                     multi={true} 
                 />
                 <Slide
-                    data={products} 
+                    data={platesData} 
                     title='Exercise Plates'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
-                    data={products} 
+                    data={supplementsData} 
                     title='Supplements'
                     timer={false} 
                     multi={true} 

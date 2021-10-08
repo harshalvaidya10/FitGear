@@ -384,8 +384,8 @@ export const products = [
 // Dumbbell starts
 { 
     id: 'product22',
-    url: 'https://rukminim1.flixcart.com/image/832/832/kr3tj0w0/dumbbell/d/v/f/hex-dumbbell-7-5-kg-x-1-pc-7-5-cultsport-original-imag4yqbhvhasuee.jpeg?q=70',
-    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kr3tj0w0/dumbbell/d/v/f/hex-dumbbell-7-5-kg-x-1-pc-7-5-cultsport-original-imag4yqbhvhasuee.jpeg?q=70', 
+    url: 'https://m.media-amazon.com/images/I/41r3ut68BbL.jpg',
+    detailUrl: 'https://m.media-amazon.com/images/I/41r3ut68BbL.jpg', 
     title: {
         shortTitle: 'Cultsport Hex Dumbbell - 7.5 KG x 1 Pc Fixed Weight Dumbbell  (7.5 kg)',
         longTitle: 'Cultsport'
@@ -641,5 +641,264 @@ export const products = [
 },
 
 // Exercise Bike ends
+
+//Exercise Plates starts
+{ 
+    id: 'product36',
+    url: 'https://images-na.ssl-images-amazon.com/images/I/61aHk56L1vL.jpg',
+    detailUrl: 'https://images-na.ssl-images-amazon.com/images/I/61aHk56L1vL.jpg', 
+    title: {
+        shortTitle: 'Aurion 4kg Vinyl Weight Plates Set  Black Weight Plate  (4 kg)',
+        longTitle: 'Vinyl Weight Plates'
+    }, 
+    price: {
+        mrp: 299,
+        cost: 299,
+        discount: 'No discount'
+    },
+    // quantity: 1,
+    description: 'Type- Weight Plate Plate Material- PVC Shell with Concrete filled Adjustable Weight No Weight 4 kg',
+    discount: 'No discount', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product37',
+    url: 'https://rukminim1.flixcart.com/image/832/832/kltryq80/free-weight/h/y/d/20kg-pvc-weight-plates-10kg-x-2pc-use-all-type-dumbbell-rods-and-original-imagyvfyj9uzdhr2.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kltryq80/free-weight/h/y/d/20kg-pvc-weight-plates-10kg-x-2pc-use-all-type-dumbbell-rods-and-original-imagyvfyj9uzdhr2.jpeg?q=70', 
+    title: {
+        shortTitle: ' Lycan 20kg pvc weight plates ,  Black Weight Plate  (20 kg)',
+        longTitle: 'Lycan 20kg pvc weight plates'
+    }, 
+    price: {
+        mrp: 1499,
+        cost: 690,
+        discount: '53% off'
+    },
+    // quantity: 1,
+    description: 'Type- Weight Plate- Plate Material- pvc Adjustable Weight NoWeight- 20 kg',
+    discount: '53% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product38',
+    url: 'https://rukminim1.flixcart.com/image/832/832/khtghow0/free-weight/x/y/u/fitness-20kg-5kg-4pcs-pvc-weight-lifting-na-20-l-avenir-original-imafxqm8bkfxr9jg.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/khtghow0/free-weight/x/y/u/fitness-20kg-5kg-4pcs-pvc-weight-lifting-na-20-l-avenir-original-imafxqm8bkfxr9jg.jpeg?q=70', 
+    title: {
+        shortTitle: 'LAVENIR FITNESS 20kg (5kg * 4pcs.) PVC Weight Lifting Black Weight Plate  (20 kg)',
+        longTitle: 'LAVENIR FITNESS 20kg'
+    }, 
+    price: {
+        mrp: 1890 ,
+        cost: 787,
+        discount: '58% off'
+    },
+    // quantity: 1,
+    description: '-',
+    discount: '58% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product39',
+    url: 'https://rukminim1.flixcart.com/image/832/832/kb6tyfk0/free-weight/k/v/r/tough-rubber-weight-plate-rwp-15-na-30-usi-original-imafshd2asz33cj8.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kb6tyfk0/free-weight/k/v/r/tough-rubber-weight-plate-rwp-15-na-30-usi-original-imafshd2asz33cj8.jpeg?q=70', 
+    title: {
+        shortTitle: 'USI TOUGH RUBBER WEIGHT PLATE RWP_15 Black Weight Plate  (30 kg)',
+        longTitle: 'USI TOUGH RUBBER WEIGHT PLATE '
+    }, 
+    price: {
+        mrp: 8400 ,
+        cost: 6799,
+        discount: '19% off'
+    },
+    // quantity: 1,
+    description: 'Type- Weight Plate Weight-30 kg',
+    discount: '19% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product40',
+    url: 'https://rukminim1.flixcart.com/image/832/832/kqo3onk0/free-weight/7/1/d/pvc-4-kg-dumbell-set-combo-home-gym-adjustable-dumbbell-4-kg-original-imag4mxujzpmxtrm.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kqo3onk0/free-weight/7/1/d/pvc-4-kg-dumbell-set-combo-home-gym-adjustable-dumbbell-4-kg-original-imag4mxujzpmxtrm.jpeg?q=70', 
+    title: {
+        shortTitle: 'Velma PVC 10KG Dumbbell  (10 kg) Black Weight Plate Black Bar & Plate Combo  (10 kg)        ',
+        longTitle: 'Velma PVC 10KG Dumbbell'
+    }, 
+    price: {
+        mrp: 1999,
+        cost: 699,
+        discount: '65% off'
+    },
+    // quantity: 1,
+    description: '-',
+    discount: '65% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product41',
+    url: 'https://rukminim1.flixcart.com/image/832/832/krgohow0/free-weight/m/h/e/neoprene-coated-3kg-x-4-ncwp3-hrx-original-imag58s8zrvgsemn.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/krgohow0/free-weight/m/h/e/neoprene-coated-3kg-x-4-ncwp3-hrx-original-imag58s8zrvgsemn.jpeg?q=70', 
+    title: {
+        shortTitle: 'HRX Neoprene Coated (3kg x 4) Red Weight Plate  (12 kg)',
+        longTitle: 'HRX Neoprene Coated (3kg x 4) Red Weight Plate  (12 kg)'
+    }, 
+    price: {
+        mrp: 6000,
+        cost: 2499,
+        discount: '58% off'
+    },
+    // quantity: 1,
+    description: '-',
+    discount: '58% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product42',
+    url: 'https://rukminim1.flixcart.com/image/832/832/kk4c13k0/free-weight/d/j/z/gym-pulley-4-inch-with-inbuilt-bush-and-bearing-black-pack-of-6-original-imafzgq4a9wgqgys.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kk4c13k0/free-weight/d/j/z/gym-pulley-4-inch-with-inbuilt-bush-and-bearing-black-pack-of-6-original-imafzgq4a9wgqgys.jpeg?q=70', 
+    title: {
+        shortTitle: 'MTU ONLINE STORE Gym Pulley (Black) - Pack of 6 Black Weight Plate  (1 kg)',
+        longTitle: 'MTU ONLINE STORE Gym Pulley'
+    }, 
+    price: {
+        mrp: 1699,
+        cost: 699,
+        discount: '58% off'
+    },
+    // quantity: 1,
+    description: '-',
+    discount: '58% off', 
+    // tagline: 'Grab Now!' 
+},
+//Exercise Plates ends
+
+//Supplements starts
+
+{ 
+    id: 'product43',
+    url: 'https://rukminim1.flixcart.com/image/416/416/k9re3rk0/protein-supplement/m/9/z/super-gainer-xxl-nut5225-03-muscleblaze-original-imafrhfwk4a28hx7.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k9re3rk0/protein-supplement/m/9/z/super-gainer-xxl-nut5225-03-muscleblaze-original-imafrhfwk4a28hx7.jpeg?q=70', 
+    title: {
+        shortTitle: 'MUSCLEBLAZE Super Gainer XXL Weight Gainers/Mass Gainers  (1 kg) ',
+        longTitle: 'MUSCLEBLAZE'
+    }, 
+    price: {
+        mrp: 1229,
+        cost: 752,
+        discount: '38% off'
+    },
+    // quantity: 1,
+    description: 'MuscleBlaze Super Gainer XXL is a sports nutrition supplement dense in calories and crafted for letting you have big muscles. The product presents a unique blend of protein and simple and complex carbs that fuel your muscles to get the faster recovery and enhanced protein synthesis. The product is free from trans fats and any added sugars and all the calories derived are from premium quality clean carbs, which makes this an ideal supplement to consume for gaining muscles. MuscleBlaze Super Gainer XXL is loaded with 27 vital vitamins and minerals that help you in enhancing your workout performance.',
+    discount: '38% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product44',
+    url: 'https://rukminim1.flixcart.com/image/416/416/kokdci80/vitamin-supplement/i/v/7/60-multivitamins-supplement-for-men-with-a-blend-of-a-original-imag3y5sfxyjdqht.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kokdci80/vitamin-supplement/i/v/7/60-multivitamins-supplement-for-men-with-a-blend-of-a-original-imag3y5sfxyjdqht.jpeg?q=70', 
+    title: {
+        shortTitle: 'Azani Active Nutrition Multivitamins supplement for Men with a blend of a Multivitamins(60 Tablets)',
+        longTitle: ' Multivitamins'
+    }, 
+    price: {
+        mrp: 649,
+        cost:279 ,
+        discount: '57% off'
+    },
+    // quantity: 1,
+    description: 'The Azani Active Nutrition Vitamin Tablets are a super blend of all the daily essential micronutrients required to provide complete nourishment to the adult body. Its rich formulation includes Vitamin A, B, C, D, E & K, Minerals like Potassium, Iron, Copper, Selenium, Chromium, Iodine & Calcium, quintessential nutrients like Lutein, Curcumin, Ginseng, Grape Seed Extract amongst several other natural actives. With a wide variety of premium ingredients used in its formulation, these tablets ensure an adequate supply of all vital nutrients required to nourish the body. Cutting off on bulking agents, gluten, and other allergens, these tablets are superfoods for overall health benefits.',
+    discount: '57% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product45',
+    url: 'https://rukminim1.flixcart.com/image/416/416/jxz0brk0/protein-supplement/r/t/w/bcaa-2-1-1-8906006750647-abbzorb-nutrition-original-imafgf4xhafzj66f.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/jxz0brk0/protein-supplement/r/t/w/bcaa-2-1-1-8906006750647-abbzorb-nutrition-original-imafgf4xhafzj66f.jpeg?q=70', 
+    title: {
+        shortTitle: 'Abbzorb Nutrition BCAA 2:1:1 BCAA  (200 g, Orange)',
+        longTitle: 'Abbzorb Nutrition '
+    }, 
+    price: {
+        mrp: 1299,
+        cost: 649,
+        discount: '50% off'
+    },
+    // quantity: 1,
+    description: 'Abbzorb BCAA is pure, potent and instantized amino acid supplement which reduces muscle soreness and maintains lean muscle mass post-workout. It contains three amino acids, L- Leucine, L-Isoleucine and L-Valine in the optimum ratio 2:1:1 which reduces protein catabolism. Our product is manufactured in a GMP compliant facility that is FSSC 22000 certified. All high care areas are temperature and humidity controlled to ensure highest level of quality and safety. When 8 grams of Abbzorb BCAA is consumed, it gets used up by muscle fibres as fuel during intense workout by reducing fatigue and muscle breakdown. This helps in muscle recovery, repair and in building stamina and endurance. It is available in refreshing tangy orange flavour which can be easily mixed into water, juices or post-workout protein shakes. Abbzorb BCAA works best when consumed before , during or post workout.',
+    discount: '50% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product46',
+    url: 'https://5.imimg.com/data5/LY/DC/PM/SELLER-3773531/bcaa-powder-amino-acid-powder-500x500.jpg',
+    detailUrl: 'https://5.imimg.com/data5/LY/DC/PM/SELLER-3773531/bcaa-powder-amino-acid-powder-500x500.jpg', 
+    title: {
+        shortTitle: 'Optimum Nutrition Amino Energy - Pre Workout, Amino Acids, Green Coffee Extract, Energy Powder BCAA  (270 g, Pineapple)',
+        longTitle: 'Optimum Nutrition '
+    }, 
+    price: {
+        mrp: 2429,
+        cost: 1943,
+        discount: '20% off'
+    },
+    // quantity: 1,
+    description: 'Mix Up ON AMINOENERGY anytime you want a fruit flavored boost of energy and alertness. You can determine whats appropriate for any situation by adding 2 scoops of serving to 300-350ml water for an afternoon pick-me-up or increasing the amino acid matrix to 10 grams with a 4 scoop serving as a pre workout drink, that delivers 200 mg of caffeine from green coffee and green tea extracts. Optimum Nutrition is proud to know that they are one of the few sports nutrition companies who own and operate their own production facilities. In fact, ONs requirements for raw materials are so strenuous that its not unusual for ON Quality Assurance Technicians to reject entire truckloads of raw materials that do not meet their high standards.',
+    discount: '20% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product47',
+    url: 'https://rukminim1.flixcart.com/image/416/416/k0sgl8w0/protein-supplement/r/g/w/muscle-strength-tablets-i-advance-ayurved-for-muscle-growth-original-imafkgkrdy4gh4be.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k0sgl8w0/protein-supplement/r/g/w/muscle-strength-tablets-i-advance-ayurved-for-muscle-growth-original-imafkgkrdy4gh4be.jpeg?q=70', 
+    title: {
+        shortTitle: 'Amezia MUSCLE STRENGTH Tablets I Advance Ayurved for Muscle Growth Weight Gainers/Mass Gainers  (60 No, Nutral)',
+        longTitle: 'Amezia MUSCLE STRENGTH Tablets'
+    }, 
+    price: {
+        mrp: 599,
+        cost: 365,
+        discount: '30% off'
+    },
+    // quantity: 1,
+    description: '100% Natural & Advanced Ayurvedic formulation for complete muscle growth, Stamina and Energy. • It contains Power of Pure Ayurvedic Herbs like Tribulus Terrestris , Ashwagandha, Abhrak Bhasma, Guduchi, Shatavari,, Nagarmotha, Pimpli Jeshthmadh,Sunth. • Natural Testosterone booster with No steroids in it.Useful for Sportsmen, Gym, Working men. • MUSCLE GROW I STAMINA I ENERGY • 100% NATURAL I ADVANCE AYURVED I NO STEROIDS I NO CHEMICALS',
+    discount: '30% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product48',
+    url: 'https://rukminim1.flixcart.com/image/416/416/kmz7qfk0/protein-supplement/g/q/x/whey-protein-24g-protein-5-2g-bcaa-raw-whey-from-usa-with-original-imagfr772m2hv4nx.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kmz7qfk0/protein-supplement/g/q/x/whey-protein-24g-protein-5-2g-bcaa-raw-whey-from-usa-with-original-imagfr772m2hv4nx.jpeg?q=70', 
+    title: {
+        shortTitle: 'PowerLift Whey protein 24G protein, 5.2G BCAA, | Raw Whey From USA | With Digezyme Blend Whey Protein  (2 kg)',
+        longTitle: 'PowerLift '
+    }, 
+    price: {
+        mrp: 4400,
+        cost: 2899,
+        discount: ' 37% off'
+    },
+    // quantity: 1,
+    description: 'Ultra low temperature cross flow micro filtered whey protein concentrate yilding the following whey protein sub-fraction beta-lactoglobulin, alpha-lactalbumin, glycomacropeptieds (GMP) ,immuno-globulin (igG), bovin serum albumin (BSA) and lactoferrin ,guar gum extract ,acesulfame potassium, sodium cyclamate ,sodium',
+    discount: ' 37% off', 
+    // tagline: 'Grab Now!' 
+},
+{ 
+    id: 'product49',
+    url: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70', 
+    title: {
+        shortTitle: 'BIGMUSCLES NUTRITION Premium Gold Whey Whey Protein  (1 kg, Belgian Chocolate)',
+        longTitle: 'BIGMUSCLES '
+    }, 
+    price: {
+        mrp: 2199,
+        cost: 1249,
+        discount: '43% off'
+    },
+    // quantity: 1,
+    description: 'PREMIUM GOLD WHEY: ADVANCED WHEY PROTEIN ISOLATE & WHEY PROTEIN CONCENTRATE BLEND Whey protein is the most important weapon in your muscle-building arsenal, it promotes muscle growth, counteracts muscle breakdown, and supports your workout recovery. Premium Gold Whey Protein combines two hard-hitting types of protein in one powerful blend. It’s perfect first thing in the morning, between meals, and especially after your workout. It’s so delicious, it’ll also slay that sweet tooth! Available in 3 delicious flavours: Rich Chocolate, Caffe Latte and Vanilla Creme Premium Gold Whey is 100% Sports Safe contains No Doping Ingredients (As per WADA/NADA List) Each Serving Delivers: 25g High Grade Protein Sourced from USA, Zero Sugar, 5.5g Branched Amino Acids[BCAAs], 4g Glutamic Acid.',
+    discount: '43% off', 
+    // tagline: 'Grab Now!' 
+},
+//Supplements ends
 
 ];
