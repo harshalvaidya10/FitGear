@@ -9,6 +9,9 @@ import { useSelector, useDispatch } from 'react-redux'; // hooks
 // import { getProducts as listProducts } from '../redux/actions/productActions';
 import {dealData as products} from "../constant/data";
 import { treadmillData } from '../constant/data';
+import { ellipticalData } from '../constant/data';
+import { dumbbellData } from '../constant/data';
+import { bikesData } from '../constant/data';
 const useStyle = makeStyles({
     component: {
         padding: 10,
@@ -42,19 +45,19 @@ const Home = () => {
                     multi={true} 
                 />
                 <Slide
-                    data={products} 
+                    data={ellipticalData} 
                     title='Elliptical'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
-                    data={products} 
+                    data={dumbbellData} 
                     title='Dumbbells'
                     timer={false} 
                     multi={true} 
                 />
                 <Slide
-                    data={products} 
+                    data={bikesData} 
                     title='Exercise Bikes'
                     timer={false} 
                     multi={true} 
