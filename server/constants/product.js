@@ -124,5 +124,262 @@ export const products = [
         description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
         discount: 'Minimum 50% Off', 
         // tagline: 'Grab Now!' 
-    }
+    },
+    { 
+        id: 'product8',
+        url: 'https://rukminim1.flixcart.com/image/832/832/juljwcw0/treadmill/g/g/c/power-max-fitness-tdm-98-1-5hp-light-weight-foldable-motorized-original-imaffmgyzqj3jf8e.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/juljwcw0/treadmill/g/g/c/power-max-fitness-tdm-98-1-5hp-light-weight-foldable-motorized-original-imaffmgyzqj3jf8e.jpeg?q=70', 
+        title: {
+            shortTitle: 'Powermax Fitness Power max Fitness TDM-98 1.75HP Treadmill',
+            longTitle: 'Powermax Fitness'
+        }, 
+        price: {
+            mrp: 45550,
+            cost: 18949,
+            discount: '58% off'
+        },
+        // quantity: 1,
+        description: 'The Powermax Fitness TDM-98 1.75HP Motorized Treadmill that can be used at work as well as home and Space Saving with its compact and ideal design to fit in any one room, fold-able to be stored near the shelf. TDM-98 treadmill has a built-in auto-stop function, while running attach the safety clip to your clothes and run as normal, it will auto stop if you fall or drift back dangerously on the treadmill, the auto-stop function minimizes the risk of injury.',
+        discount: '58% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product9',
+        url: 'https://rukminim1.flixcart.com/image/832/832/kerfl3k0/treadmill/u/n/v/rpm800-manual-multifunction-treadmill-with-free-installation-original-imafvdcsnzpw7xed.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kerfl3k0/treadmill/u/n/v/rpm800-manual-multifunction-treadmill-with-free-installation-original-imafvdcsnzpw7xed.jpeg?q=70', 
+        title: {
+            shortTitle: 'RPM Fitness RPM800 MANUAL MULTIFUNCTION TREADMILL',
+            longTitle: 'RPM Fitness'
+        }, 
+        price: {
+            mrp: 22900,
+            cost: 12999,
+            discount: '43% off'
+        },
+        // quantity: 1,
+        description: 'RPM Fitness RPM800 Manual Multifunction Treadmill with Free Installation. Foldable, portable, non-motorized treadmill machine for home use. Electronic Meter Display for tracks Speed, Distance, Calories, Time and Pulse. 3 Levels Manual Incline system to toughen up your workout .Twister Helps To Slim The Thighs, Waist And Hips. Thick and robust metal frame for heavy pounding. It is a lightweight exercise equipment to burn calories, lose weight and belly fat and improve fitness',
+        discount: '43% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product10',
+        url: 'https://rukminim1.flixcart.com/image/832/832/knt7zbk0/treadmill/c/o/o/4-in-1-multipurpose-pro-manual-with-jogger-push-up-bar-stepper-original-imag2ezzkwzx9qbh.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/knt7zbk0/treadmill/c/o/o/4-in-1-multipurpose-pro-manual-with-jogger-push-up-bar-stepper-original-imag2ezzkwzx9qbh.jpeg?q=70', 
+        title: {
+            shortTitle: 'Adrenex by Flipkart 4 in 1 Multipurpose Treadmill',
+            longTitle: 'Adrenex'
+        }, 
+        price: {
+            mrp: 25000,
+            cost: 12599,
+            discount: '43% off'
+        },
+        // quantity: 1,
+        description: 'Adrenex by Flipkart AD- 100 -4 in 1 Multifunction Manual Treadmill with Jogger, Stepper, Twister & Push Up Bar Treadmill. Perfect for home use.',
+        discount: '43% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product11',
+        url: 'https://rukminim1.flixcart.com/image/832/832/kk5rgy80/treadmill/g/f/m/lltm09-fit-pro-2-5hp-with-heart-rate-sensor-motorized-without-original-imafzkfyaea2k6qv.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kk5rgy80/treadmill/g/f/m/lltm09-fit-pro-2-5hp-with-heart-rate-sensor-motorized-without-original-imafzkfyaea2k6qv.jpeg?q=70', 
+        title: {
+            shortTitle: 'Lifelong LLTM09 Fit Pro 2.5HP with Heart Rate Sensor, Motorized Treadmill',
+            longTitle: 'LifeLong Fitness'
+        }, 
+        price: {
+            mrp: 41000,
+            cost: 16999,
+            discount: '60% off'
+        },
+        // quantity: 1,
+        description: 'Easy-to-use Speakers This treadmill features a speaker system that you can easily take advantage of by using an AUX cable or a USB playback device.Foldable Design, For Extensive Workouts, 12 Preset Workouts',
+        discount: '60% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product12',
+        url: 'https://rukminim1.flixcart.com/image/832/832/ks0onm80/treadmill/a/z/m/royal-3-0-hp-dc-6-0-hp-motorized-without-massager-motorized-original-imag5zhmmeaeung3.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/ks0onm80/treadmill/a/z/m/royal-3-0-hp-dc-6-0-hp-motorized-without-massager-motorized-original-imag5zhmmeaeung3.jpeg?q=70', 
+        title: {
+            shortTitle: 'Durafit Royal 3.0 HP DC (6.0 ) HP Motorized Treadmill',
+            longTitle: 'DuraFit Royal'
+        }, 
+        price: {
+            mrp: 84999,
+            cost: 58999,
+            discount: '65% off'
+        },
+        // quantity: 1,
+        description: 'The Durafit Royal motorized treadmill helps you fulfil your fitness goals. It comes with a powerful motor that delivers high performance, works silently and also helps conserve electricity. With a heart-rate sensor that gives you a real-time reading as you workout this treadmill also comes with additional features such as an auto incline feature, wide running surface and more.',
+        discount: '65% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product13',
+        url: 'https://rukminim1.flixcart.com/image/832/832/k0sgl8w0/treadmill/w/y/9/fk90-manual-fitkit-original-imafkhkgw7b8dwab.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/k0sgl8w0/treadmill/w/y/9/fk90-manual-fitkit-original-imafkhkgw7b8dwab.jpeg?q=70', 
+        title: {
+            shortTitle: 'FITKIT FK90 Manual Treadmill',
+            longTitle: 'FITKIT'
+        }, 
+        price: {
+            mrp: 16990,
+            cost: 9999,
+            discount: '40% off'
+        },
+        // quantity: 1,
+        description: 'The order for this product can only be canceled within the first 24 hours of booking. Always choose a treadmill that can support at least 20 more kilograms of weight than your current weight, since the impact weight increases during running.',
+        discount: '40% off', 
+        // tagline: 'Grab Now!' 
+    },
+    { 
+        id: 'product14',
+        url: 'https://rukminim1.flixcart.com/image/832/832/kt4ozgw0/treadmill/g/6/6/ctm-04-2-hp-peak-with-massager-with-massager-motorized-cockatoo-original-imag6jk7dg4hx86n.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/832/832/kt4ozgw0/treadmill/g/6/6/ctm-04-2-hp-peak-with-massager-with-massager-motorized-cockatoo-original-imag6jk7dg4hx86n.jpeg?q=70', 
+        title: {
+            shortTitle: 'COCKATOO CTM -04 2 HP Peak With Massager Treadmill',
+            longTitle: 'COCKATOO'
+        }, 
+        price: {
+            mrp: 37500,
+            cost: 21049,
+            discount: '43% off'
+        },
+        // quantity: 1,
+        description: 'FEATURES: Max Weight:- 90 Kg, Speed:- 0.8-10 Km/h, Running Surface:- 390 - 1100 mm(15.3" x 43.3"), Monitor:- LED, Treadmill Weight: 50 Kg',
+        discount: '43% off', 
+        // tagline: 'Grab Now!' 
+    },
+
+//     // Elliptical starts
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+//     { 
+//         id: 'product15',
+//         url: '',
+//         detailUrl: '', 
+//         title: {
+//             shortTitle: '',
+//             longTitle: ''
+//         }, 
+//         price: {
+//             mrp: ,
+//             cost: ,
+//             discount: ''
+//         },
+//         // quantity: 1,
+//         description: '',
+//         discount: '', 
+//         // tagline: 'Grab Now!' 
+//     },
+// // Elliptical ends
+
+
 ];

@@ -8,7 +8,7 @@ import React,  { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux'; // hooks
 // import { getProducts as listProducts } from '../redux/actions/productActions';
 import {dealData as products} from "../constant/data";
-
+import { treadmillData } from '../constant/data';
 const useStyle = makeStyles({
     component: {
         padding: 10,
@@ -36,7 +36,7 @@ const Home = () => {
                 <MidSlide products={products} />
                 <MidSection />
                 <Slide
-                    data={products} 
+                    data={treadmillData} 
                     title='Treadmill'
                     timer={false} 
                     multi={true} 
