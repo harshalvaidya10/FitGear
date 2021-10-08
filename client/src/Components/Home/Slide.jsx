@@ -108,6 +108,12 @@ const MultiSlide = ({ data, timer, title }) => {
                             <Box textAlign="center" className={classes.wrapper}>
                                 <img src={temp.url} className={classes.image} />
                                 <Typography className={classes.text} style={{ fontWeight: 600, color: '#212121' }}>{temp.title.shortTitle}</Typography>
+                                
+                                {/* added cost */}
+                                <Typography>
+                            <span className={classes.text} style={{ color: 'black' }} >₹{temp.price.cost}</span>&nbsp;&nbsp;&nbsp; 
+                            <span className={classes.text} style={{ color: 'grey' }}  ><strike>₹{temp.price.mrp}</strike></span>&nbsp;&nbsp;&nbsp;
+                        </Typography>
                                 <Typography className={classes.text} style={{ color: 'green' }}>{temp.discount}</Typography>
                                 <Typography className={classes.text} style={{ color: '#212121', opacity: '.6' }}>{temp.tagline}</Typography>
                             </Box>

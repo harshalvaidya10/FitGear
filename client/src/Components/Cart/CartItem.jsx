@@ -22,10 +22,11 @@ const useStyle = makeStyles({
         margin: 20
     },
     greyTextColor: {
-        color: '#878787'
+        color: '#00000'
     },
     smallText: {
         fontSize: 14,
+        fontWeight: 600
     },
     price: {
         fontSize: 18,
@@ -49,9 +50,14 @@ const CartItem = ({ item, removeItemFromCart }) => {
             </Box>
             <Box className={classes.mid}>
                 <Typography>{addEllipsis(item.title.longTitle)}</Typography>
-                <Typography className={clsx(classes.greyTextColor, classes.smallText)} style={{ marginTop: 10 }}>Seller:RetailNet
+                {/* <Typography className={clsx(classes.greyTextColor, classes.smallText)} style={{ marginTop: 10 }}>Seller:RetailNet
                     
+                </Typography> */}
+
+                {/* added product name */}
+                <Typography className={clsx(classes.greyTextColor, classes.smallText)} style={{ marginTop: 10 }}>{item.title.shortTitle}
                 </Typography>
+                
                 <Typography style={{margin: '20px 0'}}>
                     <span className={classes.price}>₹{item.price.cost}</span>&nbsp;&nbsp;&nbsp;
                     <span className={classes.greyTextColor}><strike>₹{item.price.mrp}</strike></span>&nbsp;&nbsp;&nbsp;

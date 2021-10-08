@@ -27,8 +27,8 @@ export const dealData = [
             longTitle: 'Inspire'
         }, 
         price: {
-            mrp: 21195,
-            cost: 26255,
+            mrp: 26255,
+            cost: 21195,
             discount: '47%'
         },
         // quantity: 1,
@@ -45,8 +45,8 @@ export const dealData = [
             longTitle: 'Top Fitness'
         },
         price: {
-            mrp: 14990,
-            cost: 18990,
+            mrp: 18990,
+            cost: 14990,
             discount: '40%'
         },
         // quantity: 1,
@@ -63,8 +63,8 @@ export const dealData = [
             longTitle: 'Precor'
         }, 
         price: {
-            mrp: 20499,
-            cost: 31660,
+            mrp: 31660,
+            cost:  20499,
             discount: '66%'
         },
         // quantity: 1,
@@ -81,8 +81,8 @@ export const dealData = [
             longTitle: 'Gym Combo',
         }, 
         price: {
-            mrp: 3199,
-            cost: 8249,
+            mrp: 8249,
+            cost:  3199,
             discount: '42%'
         },
         // quantity: 1,
@@ -99,8 +99,8 @@ export const dealData = [
             longTitle: 'Vinto Equipments'
         }, 
         price: {
-            mrp: 1099,
-            cost: 2124,
+            mrp: 2124 ,
+            cost: 1099,
             discount: '40%'
         },
         // quantity: 1,
@@ -117,8 +117,8 @@ export const dealData = [
             longTitle: 'Todo Fitness'
         }, 
         price: {
-            mrp: 2250,
-            cost: 4199,
+            mrp: 4199,
+            cost:  2250,
             discount: '46%'
         },
         // quantity: 1,
@@ -135,8 +135,8 @@ export const dealData = [
             longTitle: 'Decathlon'
         }, 
         price: {
-            mrp: 16990,
-            cost: 13990,
+            mrp: 13990,
+            cost:  16990,
             discount: '59%'
         },
         // quantity: 1,
