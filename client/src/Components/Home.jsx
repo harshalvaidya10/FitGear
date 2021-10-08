@@ -14,6 +14,7 @@ import { dumbbellData } from '../constant/data';
 import { bikesData } from '../constant/data';
 import { platesData } from '../constant/data';
 import {supplementsData} from '../constant/data'
+import SimpleForm from './Home/SimpleForm';
 const useStyle = makeStyles({
     component: {
         padding: 10,
@@ -89,6 +90,10 @@ const Home = () => {
                     multi={true} 
                 />
             </Box>
+            <div style={{position:'relative', zIndex: 1001 }}>
+                <SimpleForm />
+            </div>
+            
         </>
     )
 }
