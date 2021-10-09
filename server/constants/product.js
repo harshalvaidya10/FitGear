@@ -905,8 +905,8 @@ export const products = [
 {
     id: 'nutrition1',
     // added image just for reference
-    url: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
-    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
+    url: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
+    detailUrl: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
     title: {
         shortTitle: 'The Paleo Diet',
         longTitle: 'The Paleo Diet'
@@ -914,8 +914,11 @@ export const products = [
 
     description: 'This is a natural way of eating, one that almost abandons all intake of sugar. The only sugar in a Paleo diet comes from fruit. However, abandoning sugar is not the only stipulation. Processed foods and grains are also eliminated from the Paleo diet. The fewer number of carbohydrates in your system leads to a decreased amount of glucose. So your system will then begin to use fat as its fuel source. In a Paleo diet, dairy is also eliminated. So what can be eaten? A Paleo diet consists of fish, fowl, vegetables, fruits, nuts, oils, sweet potatoes, eggs and meat, so long as that meat is grass-fed and not grain-fed.'
 },
+
 {
     id: 'nutrition2',
+    url:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
+    detailUrl:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
     title: {
         shortTitle: 'The Blood Type Diet',
         longTitle: 'The Blood Type Diet'
@@ -926,6 +929,8 @@ export const products = [
 
 {
     id: 'nutrition3',
+    url:'https://static.toiimg.com/photo/77717209.cms',
+    detailUrl:'https://static.toiimg.com/photo/77717209.cms',
     title: {
         shortTitle: 'The Vegan Diet',
         longTitle: 'The Vegan Diet'
@@ -936,6 +941,8 @@ export const products = [
 
 {
     id: 'nutrition4',
+    url:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
+    detailUrl:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
     title: {
         shortTitle: 'The South Beach Diet',
         longTitle: 'The South Beach Diet'
@@ -946,6 +953,8 @@ export const products = [
 
 {
     id: 'nutrition5',
+    url:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
+    detailUrl:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
     title: {
         shortTitle: 'The Mediterranean Diet',
         longTitle: 'The Mediterranean Diet'
@@ -956,6 +965,8 @@ export const products = [
 
 {
     id: 'nutrition6',
+    url:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
+    detailUrl:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
     title: {
         shortTitle: 'Raw Food Diet',
         longTitle: 'Raw Food Diet'
@@ -968,6 +979,8 @@ export const products = [
 //workout starts
 {
     id: 'workout1',
+    url:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
+    detailUrl:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
     title:{
         shortTitle:'Cardio training (aerobic and anaerobic)',
         longTitle:'Cardio training'
@@ -977,6 +990,8 @@ export const products = [
 
 {
     id: 'workout2',
+    url:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
+    detailUrl:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
     title:{
         shortTitle:'Steady state (aerobic)',
         longTitle:'Steady state '
@@ -986,6 +1001,8 @@ export const products = [
 
 {
     id: 'workout3',
+    url:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
+    detailUrl:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
     title:{
         shortTitle:'Low- and moderate intensity (aerobic)',
         longTitle:'Low- and moderate intensity '
@@ -995,6 +1012,8 @@ export const products = [
 
 {
     id: 'workout4',
+    url:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
+    detailUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
     title:{
         shortTitle:'High-intensity and intervals (anaerobic)',
         longTitle:'High-intensity and intervals'
@@ -1009,6 +1028,8 @@ export const products = [
 
 {
     id: 'workout5',
+    url:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
+    detailUrl:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
     title:{
         shortTitle:'Weight training (resistance training)',
         longTitle:'Weight training'
@@ -1024,6 +1045,8 @@ export const products = [
 
 {
     id: 'workout6',
+    url:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
+    detailUrl:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
     title:{
         shortTitle:'Flexibility training',
         longTitle:'Flexibility training'
@@ -1033,11 +1056,14 @@ export const products = [
 
 {
     id: 'workout7',
+    url:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
+    detailUrl:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
     title:{
         shortTitle:'Pilates',
         longTitle:'Pilates'
     },
     description:'Developed by Joseph Pilates, this method of exercise incorporates controlled movements with an emphasis on alignment, breathing and building the core—referred to by Pilates instructors as the “Powerhouse”. Over time Pilates will not only increase flexibility but help improve coordination, balance and all-round stability.'
 },
+
 //workout ends
 ];
