@@ -15,6 +15,7 @@ import { bikesData } from '../constant/data';
 import { platesData } from '../constant/data';
 import {supplementsData} from '../constant/data'
 import SimpleForm from './Home/SimpleForm';
+import { nutritionData } from '../constant/data';
 const useStyle = makeStyles({
     component: {
         padding: 10,
@@ -85,7 +86,7 @@ const Home = () => {
                     link= 'workout'
                 />
                 <Slide
-                    data={products} 
+                    data={nutritionData} 
                     title='Nutrition'
                     timer={false} 
                     multi={true} 

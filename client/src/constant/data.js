@@ -920,3 +920,16 @@ export const supplementsData = [
         // tagline: 'Grab Now!' 
     },
 ];
+
+
+export const nutritionData = [
+    {
+        id: ''
+        title: {
+            shortTitle: '',
+            longTitle: ''
+        },
+
+        description: ''
+    },
+];
