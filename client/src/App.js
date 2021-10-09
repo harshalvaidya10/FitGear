@@ -6,6 +6,7 @@ import TemplateProvider from './templates/TemplateProvider';
 import ContextProvider from './context/ContextProvider';
 import Cart from './Components/Cart/Cart';
 import { Box } from '@material-ui/core'
+import WorkoutNutritionView from './Components/ItemDetails/WorkoutNutritionView';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
               <Route exact path= '/cart' component={Cart} />
               {/* <Route exact path= '/product/:id' component={Product} /> */}
               <Route exact path= '/product/:id' component={DetailView} />
+              <Route exact path= '/nutrition/:id' component={WorkoutNutritionView} />
+              <Route exact path= '/workout/:id' component={WorkoutNutritionView} />
+
               <Route component={NotFound} />
             </Switch>
           </Box>

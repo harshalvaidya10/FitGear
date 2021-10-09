@@ -66,7 +66,7 @@ const useStyle = makeStyles(theme => ({
     }
 }));
 
-const MultiSlide = ({ data, timer, title }) => {
+const MultiSlide = ({ data, timer, title, link }) => {
     const classes = useStyle();
     const timerURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/timer_a73398.svg';
 
@@ -104,18 +104,21 @@ const MultiSlide = ({ data, timer, title }) => {
             >
                 {
                     data.map(temp => (
-                        <Link to={`product/${temp.id}`} style={{textDecoration: 'none'}}>
+                        <Link to={link ? `${link}/${temp.id}` : `product/${temp.id}`} style={{textDecoration: 'none'}}>
                             <Box textAlign="center" className={classes.wrapper}>
                                 <img src={temp.url} className={classes.image} />
                                 <Typography className={classes.text} style={{ fontWeight: 600, color: '#212121' }}>{temp.title.shortTitle}</Typography>
                                 
                                 {/* added cost */}
-                                <Typography>
+                                { !link &&
+                               <div><Typography>
                             <span className={classes.text} style={{ color: 'black' }} >₹{temp.price.cost}</span>&nbsp;&nbsp;&nbsp; 
                             <span className={classes.text} style={{ color: 'grey' }}  ><strike>₹{temp.price.mrp}</strike></span>&nbsp;&nbsp;&nbsp;
                         </Typography>
                                 <Typography className={classes.text} style={{ color: 'green' }}>{temp.discount}</Typography>
                                 <Typography className={classes.text} style={{ color: '#212121', opacity: '.6' }}>{temp.tagline}</Typography>
+                                </div> 
+                            }
                             </Box>
                         </Link>
                     ))

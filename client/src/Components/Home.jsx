@@ -82,12 +82,14 @@ const Home = () => {
                     title='Workout Plans'
                     timer={false} 
                     multi={true} 
+                    link= 'workout'
                 />
                 <Slide
                     data={products} 
                     title='Nutrition'
                     timer={false} 
                     multi={true} 
+                    link= 'nutrition'
                 />
             </Box>
             <div style={{position:'relative', zIndex: 1001 }}>
