@@ -925,6 +925,9 @@ export const supplementsData = [
 export const nutritionData = [
     {
         id: 'nutrition1',
+        // added image just for reference
+        url: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
+        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
         title: {
             shortTitle: 'The Paleo Diet',
             longTitle: 'The Paleo Diet'
@@ -1021,7 +1024,12 @@ export const workoutData= [
             shortTitle:'High-intensity and intervals (anaerobic)',
             longTitle:'High-intensity and intervals'
         },
-        description:''
+        description: `Now we’re entering the high-intensity zone. This is where you can expect to work pretty darn hard, elevating and maintaining your heart rate above 70% of your MHR. High-intensity workouts include sprints, some forms of resistance training, and what we at 8fit are known for, HIIT (high-intensity interval training).
+        Intervals are when exercises are broken up into several parts (i.e., repetitions) and completed as part of the same workout (i.e., a round). They can be divided up into many forms, but the most common are blocks of time or distance.
+        Intervals are often split into work-to-rest ratios, with high-intensity exercises like sprints or skipping rope constituting working intervals while lower intensity movements like walking or can be a short break as rest. A good rule of thumb regarding the work-to-rest ratio is as follows:
+        Beginner (1:2): One part high-intensity interval followed by two parts lower intensity interval to allow the body to recover before hitting that high-intensity interval again.
+        Intermediate to advanced athlete (2:1): Here twice the amount of time or reps is devoted to high-intensity intervals, while half is allocated to recovery intervals.        
+        `
     },
 
     {
@@ -1030,7 +1038,13 @@ export const workoutData= [
             shortTitle:'Weight training (resistance training)',
             longTitle:'Weight training'
         },
-        description:''
+        description: `A common misconception is that weight training will lead to one outcome and one outcome only — hypertrophy. But in fact, there are many goals you achieve through resistance training with weights in the form rep and set schemes along with the percentages of your 1Rm (1 rep max) that you are lifting.
+        1. Hypertrophy: Enlargement muscles by increasing size of cells in muscle fiber
+        2. Muscular endurance: Ability of muscles to exert tension over a long period of time
+        3. Muscular strength: The amount of force a muscle exerts in a single max. effort
+        4. Cardio training: Using weights or resistance to work your aerobic energy systems
+        The last bullet point probably caught you off guard, but yes indeed, you can do cardio training through weight training as well. As long as you elevate your heart rate to higher than that of your RHR (resting heart rate), then you’re actually incorporating a cardio element to your workout.
+        `
     },
 
     {

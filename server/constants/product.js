@@ -901,4 +901,143 @@ export const products = [
 },
 //Supplements ends
 
+//nutrition starts
+{
+    id: 'nutrition1',
+    // added image just for reference
+    url: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
+    detailUrl: 'https://rukminim1.flixcart.com/image/416/416/ken59jk0/protein-supplement/u/q/y/premium-gold-whey-bmn189b-bigmuscles-nutrition-original-imafv9gghstgufuv.jpeg?q=70',
+    title: {
+        shortTitle: 'The Paleo Diet',
+        longTitle: 'The Paleo Diet'
+    },
+
+    description: 'This is a natural way of eating, one that almost abandons all intake of sugar. The only sugar in a Paleo diet comes from fruit. However, abandoning sugar is not the only stipulation. Processed foods and grains are also eliminated from the Paleo diet. The fewer number of carbohydrates in your system leads to a decreased amount of glucose. So your system will then begin to use fat as its fuel source. In a Paleo diet, dairy is also eliminated. So what can be eaten? A Paleo diet consists of fish, fowl, vegetables, fruits, nuts, oils, sweet potatoes, eggs and meat, so long as that meat is grass-fed and not grain-fed.'
+},
+{
+    id: 'nutrition2',
+    title: {
+        shortTitle: 'The Blood Type Diet',
+        longTitle: 'The Blood Type Diet'
+    },
+
+    description: 'Some doctors have started to research diets that coincide with particular blood types. The premise of these diets attempts to match people with their common dietary needs based on their blood type. For example, individuals with type O blood are recommended to eat lots of food that are high in protein. In order to lose weight, spinach, red meat, seafood and broccoli are suggested while dairy should be avoided. Those with type A blood are recommended to avoid meat and place an emphasis on turkey, tofu, and fruit while weight loss is contingent on eating a diet that consists primarily of soy, seafood and vegetables. Individuals with type B and AB blood also have their own dietary restrictions and recommendations.'
+},
+
+{
+    id: 'nutrition3',
+    title: {
+        shortTitle: 'The Vegan Diet',
+        longTitle: 'The Vegan Diet'
+    },
+
+    description: 'This diet is a form of a vegetarian diet as it eliminates meat and animal products. One of the primary effects of this diet is that it reduces the intake of cholesterol and saturated fat. It takes some planning, but if a vegan diet is rationed out properly, it can have many positive effects. Studies have proven that those who practice a vegan diet minimize their overall risk of coronary heart disease, obesity and high blood pressure. To compensate for a lack of meat, vegans must find a way to incorporate more sources of protein and vitamin B-12 into their diets.'
+},
+
+{
+    id: 'nutrition4',
+    title: {
+        shortTitle: 'The South Beach Diet',
+        longTitle: 'The South Beach Diet'
+    },
+
+    description: 'This diet was first introduced in 2003 and is based on the premise of changing one’s overall eating habits by balancing out one’s everyday diet. Certain carbohydrates are completely avoided. It does not eliminate carbohydrates altogether, but aims to educate dieters on which carbs to always avoid. This often leads to developing a healthy way of eating so that it will be sustainable for the rest of people’s lives. The diet includes a selection of healthy fats, lean protein, as well as good carbs.'
+},
+
+{
+    id: 'nutrition5',
+    title: {
+        shortTitle: 'The Mediterranean Diet',
+        longTitle: 'The Mediterranean Diet'
+    },
+
+    description: 'This is another kind of vegetable-heavy diet that avoids a lot of meat, but does not eliminate it altogether. This diet has been proven to help with depression, in addition to controlling blood sugar levels and helping with weight loss. The Mediterranean diet recommends the use of oil as much as possible and that means as an alternative to butter, salad dressings or marinades. It also emphasizes adding vegetables to each meal and favors fish over chicken. Whole grains, nuts and herbs are also used in larger amounts.'
+},
+
+{
+    id: 'nutrition6',
+    title: {
+        shortTitle: 'Raw Food Diet',
+        longTitle: 'Raw Food Diet'
+    },
+
+    description: 'This is a diet that places a premium on eating uncooked and unprocessed foods. The diet eliminates the intake of any foods that have been pasteurized or produced with any kind of synthetics or additives. The diet is intended to create a surge in energy, a decrease in inflammation, while also lowering the number of carcinogens in one’s diet.'
+},
+//nutrition ends
+
+//workout starts
+{
+    id: 'workout1',
+    title:{
+        shortTitle:'Cardio training (aerobic and anaerobic)',
+        longTitle:'Cardio training'
+    },
+    description:'Cardio is probably the most popular type of exercise out there — thanks, Jane Fonda and Richard Simmons. Cardio is also one area of exercise that offers limitless kinds of workouts: walking, running, cycling, cross-country skiing, swimming, dancing, you get the idea. Basically, anything that elevates your heart rate to a level above your resting heart rate is cardio. That said, there are also different categories of cardio both aerobic and anaerobic.'
+},
+
+{
+    id: 'workout2',
+    title:{
+        shortTitle:'Steady state (aerobic)',
+        longTitle:'Steady state '
+    },
+    description:'This type of cardio refers to the pace of your workout and can involve any level of intensity. As the name suggests, the aim is to maintain a steady pace and intensity for the entire duration of your preferred workout.'
+},
+
+{
+    id: 'workout3',
+    title:{
+        shortTitle:'Low- and moderate intensity (aerobic)',
+        longTitle:'Low- and moderate intensity '
+    },
+    description:'Low-intensity exercise can be measured as any exercise that keeps your heart rate below 50% of your MHR (maximum heart rate) — think a casual stroll or leisurely bike ride. Moderate-intensity workouts push your heart rate between 50%-70% of your MHR. In moderate intensity, you should be able to carry on a conversation and pass the talk test. Activities such as running, hiking, biking, swimming, fitness classes, should have you hitting the moderate-intensity bracket.'
+},
+
+{
+    id: 'workout4',
+    title:{
+        shortTitle:'High-intensity and intervals (anaerobic)',
+        longTitle:'High-intensity and intervals'
+    },
+    description: `Now we’re entering the high-intensity zone. This is where you can expect to work pretty darn hard, elevating and maintaining your heart rate above 70% of your MHR. High-intensity workouts include sprints, some forms of resistance training, and what we at 8fit are known for, HIIT (high-intensity interval training).
+    Intervals are when exercises are broken up into several parts (i.e., repetitions) and completed as part of the same workout (i.e., a round). They can be divided up into many forms, but the most common are blocks of time or distance.
+    Intervals are often split into work-to-rest ratios, with high-intensity exercises like sprints or skipping rope constituting working intervals while lower intensity movements like walking or can be a short break as rest. A good rule of thumb regarding the work-to-rest ratio is as follows:
+    Beginner (1:2): One part high-intensity interval followed by two parts lower intensity interval to allow the body to recover before hitting that high-intensity interval again.
+    Intermediate to advanced athlete (2:1): Here twice the amount of time or reps is devoted to high-intensity intervals, while half is allocated to recovery intervals.        
+    `
+},
+
+{
+    id: 'workout5',
+    title:{
+        shortTitle:'Weight training (resistance training)',
+        longTitle:'Weight training'
+    },
+    description: `A common misconception is that weight training will lead to one outcome and one outcome only — hypertrophy. But in fact, there are many goals you achieve through resistance training with weights in the form rep and set schemes along with the percentages of your 1Rm (1 rep max) that you are lifting.
+    1. Hypertrophy: Enlargement muscles by increasing size of cells in muscle fiber
+    2. Muscular endurance: Ability of muscles to exert tension over a long period of time
+    3. Muscular strength: The amount of force a muscle exerts in a single max. effort
+    4. Cardio training: Using weights or resistance to work your aerobic energy systems
+    The last bullet point probably caught you off guard, but yes indeed, you can do cardio training through weight training as well. As long as you elevate your heart rate to higher than that of your RHR (resting heart rate), then you’re actually incorporating a cardio element to your workout.
+    `
+},
+
+{
+    id: 'workout6',
+    title:{
+        shortTitle:'Flexibility training',
+        longTitle:'Flexibility training'
+    },
+    description:'Flexibility is more than being able to touch your toes, it’s about general musculoskeletal health. While some people are born with natural flexibility, it doesn’t mean that those who aren’t are doomed to have it beyond their grasp. Exercises that facilitate flexibility and mobility, like stretching are often neglected or deemed as ‘not proper’ exercise, as exertion seems minimal at first glance. Disregarding this kind of training from your regular routine is actually doing you a disservice as compromised mobility can limit your range of motion, stunt your fitness goals, or in the worst case can lead to injury down the line. Here are some styles of flexibility training that both complement different types of workouts, as well as include strength elements within them.'
+},
+
+{
+    id: 'workout7',
+    title:{
+        shortTitle:'Pilates',
+        longTitle:'Pilates'
+    },
+    description:'Developed by Joseph Pilates, this method of exercise incorporates controlled movements with an emphasis on alignment, breathing and building the core—referred to by Pilates instructors as the “Powerhouse”. Over time Pilates will not only increase flexibility but help improve coordination, balance and all-round stability.'
+},
+//workout ends
 ];
