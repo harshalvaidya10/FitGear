@@ -8,6 +8,7 @@ import { getProductById } from '../../service/api';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { getProductDetails } from '../../redux/actions/productActions';
+import ReactPlayer from 'react-player'
 
 const useStyles = makeStyles(theme => ({
     component: {
@@ -112,6 +113,9 @@ const WorkoutNutritionView = ({ history, match }) => {
         </Box>
                     </Grid>
                     <Grid item lg={8} md={8} sm={8} xs={12} className={classes.rightContainer}>
+                    <div className={classes.video}>
+                        <ReactPlayer controls  url={product.video}/>
+                        </div>
                         <Typography>{product.title.shortTitle}</Typography>
                         <Typography>{product.description}</Typography>
                         {/* <ProductDetail product={product} /> */}

@@ -907,6 +907,7 @@ export const products = [
     // added image just for reference
     url: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
     detailUrl: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
+    video: 'https://youtu.be/7sDY4m8KNLc',
     title: {
         shortTitle: 'The Paleo Diet',
         longTitle: 'The Paleo Diet'
