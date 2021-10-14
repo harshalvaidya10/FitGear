@@ -61,7 +61,7 @@ const useStyles = makeStyles(theme => ({
         marginRight: 45,
     },
     video: {
-        marginLeft: 110,
+        marginLeft: 150,
     },
 }));
 
