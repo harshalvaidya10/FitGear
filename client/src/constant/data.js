@@ -928,7 +928,7 @@ export const nutritionData = [
         // added image just for reference
         url: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
         detailUrl: 'https://static.toiimg.com/photo/msid-86012243/86012243.jpg?190362',
-        video: 'https://youtu.be/7sDY4m8KNLc',
+        video: 'https://www.youtube.com/watch?v=w07W0D9z6v4',
         title: {
             shortTitle: 'The Paleo Diet',
             longTitle: 'The Paleo Diet'
@@ -941,6 +941,7 @@ export const nutritionData = [
         id: 'nutrition2',
         url:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
         detailUrl:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
+        video: 'https://www.youtube.com/watch?v=CW0LwL0XQVo',
         title: {
             shortTitle: 'The Blood Type Diet',
             longTitle: 'The Blood Type Diet'
@@ -953,6 +954,7 @@ export const nutritionData = [
         id: 'nutrition3',
         url:'https://static.toiimg.com/photo/77717209.cms',
         detailUrl:'https://static.toiimg.com/photo/77717209.cms',
+        video: 'https://www.youtube.com/watch?v=GWm6D7nA8RQ',
         title: {
             shortTitle: 'The Vegan Diet',
             longTitle: 'The Vegan Diet'
@@ -965,6 +967,7 @@ export const nutritionData = [
         id: 'nutrition4',
         url:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
         detailUrl:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
+        video: 'https://www.youtube.com/watch?v=2DdxNpzjlX8',
         title: {
             shortTitle: 'The South Beach Diet',
             longTitle: 'The South Beach Diet'
@@ -977,6 +980,7 @@ export const nutritionData = [
         id: 'nutrition5',
         url:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
         detailUrl:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
+        video: 'https://www.youtube.com/watch?v=gL_Zym20U5M',
         title: {
             shortTitle: 'The Mediterranean Diet',
             longTitle: 'The Mediterranean Diet'
@@ -989,6 +993,7 @@ export const nutritionData = [
         id: 'nutrition6',
         url:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
         detailUrl:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
+        video: 'https://www.youtube.com/watch?v=gLHUF8Tw_Dc',
         title: {
             shortTitle: 'Raw Food Diet',
             longTitle: 'Raw Food Diet'
@@ -1006,6 +1011,7 @@ export const workoutData= [
         id: 'workout1',
         url:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
         detailUrl:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
+        video: 'https://www.youtube.com/watch?v=fcN37TxBE_s',
         title:{
             shortTitle:'Cardio training (aerobic and anaerobic)',
             longTitle:'Cardio training'
@@ -1017,6 +1023,7 @@ export const workoutData= [
         id: 'workout2',
         url:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
         detailUrl:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
+        video: 'https://www.youtube.com/watch?v=ImI63BUUPwU',
         title:{
             shortTitle:'Steady state (aerobic)',
             longTitle:'Steady state '
@@ -1028,6 +1035,7 @@ export const workoutData= [
         id: 'workout3',
         url:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
         detailUrl:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
+        video: 'https://www.youtube.com/watch?v=Z9nxS5tmQRI',
         title:{
             shortTitle:'Low- and moderate intensity (aerobic)',
             longTitle:'Low- and moderate intensity '
@@ -1039,6 +1047,7 @@ export const workoutData= [
         id: 'workout4',
         url:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
         detailUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
+        video: 'https://www.youtube.com/watch?v=ml6cT4AZdqI',
         title:{
             shortTitle:'High-intensity and intervals (anaerobic)',
             longTitle:'High-intensity and intervals'
@@ -1055,6 +1064,7 @@ export const workoutData= [
         id: 'workout5',
         url:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
         detailUrl:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
+        video: 'https://www.youtube.com/watch?v=njGZClD94bg',
         title:{
             shortTitle:'Weight training (resistance training)',
             longTitle:'Weight training'
@@ -1072,6 +1082,7 @@ export const workoutData= [
         id: 'workout6',
         url:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
         detailUrl:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
+        video: 'https://www.youtube.com/watch?v=jeNwE4VXqgs',
         title:{
             shortTitle:'Flexibility training',
             longTitle:'Flexibility training'
@@ -1083,6 +1094,7 @@ export const workoutData= [
         id: 'workout7',
         url:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
         detailUrl:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
+        video: 'https://www.youtube.com/watch?v=K56Z12XNQ5c',
         title:{
             shortTitle:'Pilates',
             longTitle:'Pilates'
