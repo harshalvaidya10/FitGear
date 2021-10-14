@@ -204,17 +204,17 @@ class SimpleForm extends Component {
               {
                 id: 'trainer',
                 options: [
-                  { value: 't1', label: 'Trainer 1', trigger: 't1' },
-                  { value: 't2', label: 'Trainer 2', trigger: 't2' },
-                  { value: 't2', label: 'Trainer 3', trigger: 't3' },
-                  { value: 't2', label: 'Trainer 4', trigger: 't4' },
+                  { value: 't1', label: 'Jeff Cavaliere', trigger: 't1' },
+                  { value: 't2', label: 'Chris Heria', trigger: 't2' },
+                  { value: 't2', label: 'Jeet Selal', trigger: 't3' },
+                  { value: 't2', label: 'Scott Herman', trigger: 't4' },
                 ]
               },
               //first trainer
               {
                 id: 't1',
                 component: (
-                  <div> Add trainers details <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                  <div>Jeff Cavaliere, MS PT CSCS, got his start as the physical therapist and strength/conditioning coach. Youtube Channel - <a href="https://www.youtube.com/c/athleanx" style={{color:'green', textDecoration: 'none'}} target="_blank">ATHLEAN-X</a> </div>
                 ),
                 asMessage: true,
                 // trigger: '',
@@ -224,7 +224,7 @@ class SimpleForm extends Component {
                 {
                   id: 't2',
                   component: (
-                    <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                    <div>He is also a Pro Bar Athlete and Certified Personal Trainer who participate in a bar athlete competition across the country. Youtube Channel -  <a href="https://www.youtube.com/c/CHRISHERIA" style={{color:'green', textDecoration: 'none'}} target="_blank">CHRIS HERIA</a> </div>
                   ),
                   asMessage: true,
                   // trigger: '',
@@ -234,7 +234,7 @@ class SimpleForm extends Component {
               {
                 id: 't3',
                 component: (
-                  <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                  <div>He is graduated in Sports science with a double degree in Sports management from United Kingdom. Youtube Channel - <a href="https://www.youtube.com/c/JeetSelalAesthetics" style={{color:'green', textDecoration: 'none'}} target="_blank">Jeet Selal Aesthetics </a> </div>
                 ),
                 asMessage: true,
                 // trigger: '',
@@ -244,7 +244,7 @@ class SimpleForm extends Component {
                 {
                   id: 't4',
                   component: (
-                    <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                    <div>The CEO of MuscularStrength.com. Youtube Channel - <a href="https://www.youtube.com/c/scottherman" style={{color:'green', textDecoration: 'none'}} target="_blank">ScottHermanFitness</a> </div>
                   ),
                   asMessage: true,
                   // trigger: '',
