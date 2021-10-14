@@ -934,172 +934,276 @@ export const nutritionData = [
             longTitle: 'The Paleo Diet'
         },
 
-        description: 'This is a natural way of eating, one that almost abandons all intake of sugar. The only sugar in a Paleo diet comes from fruit. However, abandoning sugar is not the only stipulation. Processed foods and grains are also eliminated from the Paleo diet. The fewer number of carbohydrates in your system leads to a decreased amount of glucose. So your system will then begin to use fat as its fuel source. In a Paleo diet, dairy is also eliminated. So what can be eaten? A Paleo diet consists of fish, fowl, vegetables, fruits, nuts, oils, sweet potatoes, eggs and meat, so long as that meat is grass-fed and not grain-fed.'
+        description: `This is a natural way of eating, one that almost abandons all intake of sugar. The only sugar in a Paleo diet comes from fruit. However, abandoning sugar is not the only stipulation. Processed foods and grains are also eliminated from the Paleo diet. The fewer number of carbohydrates in your system leads to a decreased amount of glucose.
+        The aim of a paleo diet is to return to a way of eating that's more like what early humans ate. The diet's reasoning is that the human body is genetically mismatched to the modern diet that emerged with farming practices — an idea known as the discordance hypothesis.
+        Farming changed what people ate and established dairy, grains and legumes as additional staples in the human diet. This relatively late and rapid change in diet, according to the hypothesis, outpaced the body's ability to adapt. This mismatch is believed to be a contributing factor to the prevalence of obesity, diabetes and heart disease today.
+        So your system will then begin to use fat as its fuel source. In a Paleo diet, dairy is also eliminated. So what can be eaten? A Paleo diet consists of fish, fowl, vegetables, fruits, nuts, oils, sweet potatoes, eggs and meat, so long as that meat is grass-fed and not grain-fed.
+        `
     },
 
     {
         id: 'nutrition2',
-        url:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
-        detailUrl:'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
+        url: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
+        detailUrl: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573323739l/48740591._SX318_.jpg',
         video: 'https://www.youtube.com/watch?v=CW0LwL0XQVo',
         title: {
             shortTitle: 'The Blood Type Diet',
             longTitle: 'The Blood Type Diet'
         },
 
-        description: 'Some doctors have started to research diets that coincide with particular blood types. The premise of these diets attempts to match people with their common dietary needs based on their blood type. For example, individuals with type O blood are recommended to eat lots of food that are high in protein. In order to lose weight, spinach, red meat, seafood and broccoli are suggested while dairy should be avoided. Those with type A blood are recommended to avoid meat and place an emphasis on turkey, tofu, and fruit while weight loss is contingent on eating a diet that consists primarily of soy, seafood and vegetables. Individuals with type B and AB blood also have their own dietary restrictions and recommendations.'
+        description: `Some doctors have started to research diets that coincide with particular blood types. The premise of these diets attempts to match people with their common dietary needs based on their blood type. For example, individuals with type O blood are recommended to eat lots of food that are high in protein. In order to lose weight, spinach, red meat, seafood and broccoli are suggested while dairy should be avoided. Those with type A blood are recommended to avoid meat and place an emphasis on turkey, tofu, and fruit while weight loss is contingent on eating a diet that consists primarily of soy, seafood and vegetables. Individuals with type B and AB blood also have their own dietary restrictions and recommendations.
+ 
+        This is how each blood type is supposed to eat:
+        Type O blood: A high-protein diet heavy on lean meat, poultry, fish, and vegetables, and light on grains, beans, and dairy. D'Adamo also recommends various supplements to help with tummy troubles and other issues he says people with type O tend to have.
+        Type A blood: A meat-free diet based on fruits and vegetables, beans and legumes, and whole grains -- ideally, organic and fresh, because D'Adamo says people with type A blood have a sensitive immune system.
+        Type B blood: Avoid corn, wheat, buckwheat, lentils, tomatoes, peanuts, and sesame seeds. Chicken is also problematic, D'Adamo says. He encourages eating green vegetables, eggs, certain meats, and low-fat dairy.
+        Type AB blood: Foods to focus on include tofu, seafood, dairy, and green vegetables. He says people with type AB blood tend to have low stomach acid. Avoid caffeine, alcohol, and smoked or cured meats.`
     },
 
     {
         id: 'nutrition3',
-        url:'https://static.toiimg.com/photo/77717209.cms',
-        detailUrl:'https://static.toiimg.com/photo/77717209.cms',
+        url: 'https://static.toiimg.com/photo/77717209.cms',
+        detailUrl: 'https://static.toiimg.com/photo/77717209.cms',
         video: 'https://www.youtube.com/watch?v=GWm6D7nA8RQ',
         title: {
             shortTitle: 'The Vegan Diet',
             longTitle: 'The Vegan Diet'
         },
 
-        description: 'This diet is a form of a vegetarian diet as it eliminates meat and animal products. One of the primary effects of this diet is that it reduces the intake of cholesterol and saturated fat. It takes some planning, but if a vegan diet is rationed out properly, it can have many positive effects. Studies have proven that those who practice a vegan diet minimize their overall risk of coronary heart disease, obesity and high blood pressure. To compensate for a lack of meat, vegans must find a way to incorporate more sources of protein and vitamin B-12 into their diets.'
+        description: `This diet is a form of a vegetarian diet as it eliminates meat and animal products. One of the primary effects of this diet is that it reduces the intake of cholesterol and saturated fat. It takes some planning, but if a vegan diet is rationed out properly, it can have many positive effects. Studies have proven that those who practice a vegan diet minimize their overall risk of coronary heart disease, obesity and high blood pressure. To compensate for a lack of meat, vegans must find a way to incorporate more sources of protein and vitamin B-12 into their diets.
+        There are different varieties of vegan diets. The most common include:
+        Whole-food vegan diet: A diet based on a wide variety of whole plant foods such as fruits, vegetables, whole grains, legumes, nuts and seeds.
+        Raw-food vegan diet: A vegan diet based on raw fruits, vegetables, nuts, seeds or plant foods cooked at temperatures below 118°F (48°C).
+        80/10/10: The 80/10/10 diet is a raw-food vegan diet that limits fat-rich plants such as nuts and avocados and relies mainly on raw fruits and soft greens instead. Also referred to as the low-fat, raw-food vegan diet or fruitarian diet.
+        The starch solution: A low-fat, high-carb vegan diet similar to the 80/10/10 but that focuses on cooked starches like potatoes, rice and corn instead of fruit.
+        Raw till 4: A low-fat vegan diet inspired by the 80/10/10 and starch solution. Raw foods are consumed until 4 p.m., with the option of a cooked plant-based meal for dinner.
+        The thrive diet: The thrive diet is a raw-food vegan diet. Followers eat plant-based, whole foods that are raw or minimally cooked at low temperatures.
+        Junk-food vegan diet: A vegan diet lacking in whole plant foods that relies heavily on mock meats and cheeses, fries, vegan desserts and other heavily processed vegan foods.
+        Although several variations of the vegan diet exist, most scientific research rarely differentiates between different types of vegan diets.
+        `
     },
 
     {
         id: 'nutrition4',
-        url:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
-        detailUrl:'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
+        url: 'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
+        detailUrl: 'https://images-na.ssl-images-amazon.com/images/I/812TTikVM4L.jpg',
         video: 'https://www.youtube.com/watch?v=2DdxNpzjlX8',
         title: {
             shortTitle: 'The South Beach Diet',
             longTitle: 'The South Beach Diet'
         },
 
-        description: 'This diet was first introduced in 2003 and is based on the premise of changing one’s overall eating habits by balancing out one’s everyday diet. Certain carbohydrates are completely avoided. It does not eliminate carbohydrates altogether, but aims to educate dieters on which carbs to always avoid. This often leads to developing a healthy way of eating so that it will be sustainable for the rest of people’s lives. The diet includes a selection of healthy fats, lean protein, as well as good carbs.'
+        description: `This diet was first introduced in 2003 and is based on the premise of changing one’s overall eating habits by balancing out one’s everyday diet. Certain carbohydrates are completely avoided. It does not eliminate carbohydrates altogether, but aims to educate dieters on which carbs to always avoid. This often leads to developing a healthy way of eating so that it will be sustainable for the rest of people’s lives. The diet includes a selection of healthy fats, lean protein, as well as good carbs.
+        The South Beach Diet has three different phases: two for weight loss and a third for weight maintenance.
+         
+        Phase 1
+        Phase 1 lasts 14 days.
+         
+        It’s considered the strictest phase because it limits fruit, grains and other higher-carb foods in order to decrease blood sugar and insulin levels, stabilize hunger and reduce cravings.
+         
+        Most people can expect to lose 8–13 pounds (3.5–6 kg) of body weight during this phase.
+         
+        During phase 1, you consume three meals per day composed of lean protein, non-starchy vegetables and small amounts of healthy fat and legumes.
+         
+        In addition, you consume two mandatory snacks per day, preferably a combination of lean protein and vegetables.
+         
+        Phase 2
+        This phase begins on day 15 and should be maintained for as many weeks as necessary to achieve your goal weight.
+         
+        You can expect to lose 1–2 pounds (0.5–1 kg) per week during this phase, on average.
+         
+        During phase 2, all foods from phase 1 are allowed, plus limited portions of fruit and “good carbs,” such as whole grains and certain types of alcohol.
+         
+        Phase 3
+        Once you achieve your target weight, you advance to phase three.
+         
+        In this stage, although the phase-2 guidelines should be the basis for your lifestyle, occasional treats are allowed and no foods are truly off limits.
+         
+        However, if you overindulge and start putting on weight, Dr. Agatston recommends returning to phase 1 for one to two weeks before returning to phase three.
+         
+        In The South Beach Diet Supercharged, Dr. Agatston also recommends regular exercise and provides a three-phase fitness program to accompany the diet phases.
+        `
     },
 
     {
         id: 'nutrition5',
-        url:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
-        detailUrl:'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
+        url: 'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
+        detailUrl: 'https://s.hdnux.com/photos/01/16/24/55/20532077/3/rawImage.jpg',
         video: 'https://www.youtube.com/watch?v=gL_Zym20U5M',
         title: {
             shortTitle: 'The Mediterranean Diet',
             longTitle: 'The Mediterranean Diet'
         },
 
-        description: 'This is another kind of vegetable-heavy diet that avoids a lot of meat, but does not eliminate it altogether. This diet has been proven to help with depression, in addition to controlling blood sugar levels and helping with weight loss. The Mediterranean diet recommends the use of oil as much as possible and that means as an alternative to butter, salad dressings or marinades. It also emphasizes adding vegetables to each meal and favors fish over chicken. Whole grains, nuts and herbs are also used in larger amounts.'
+        description: `This is another kind of vegetable-heavy diet that avoids a lot of meat, but does not eliminate it altogether. This diet has been proven to help with depression, in addition to controlling blood sugar levels and helping with weight loss. The Mediterranean diet recommends the use of oil as much as possible and that means as an alternative to butter, salad dressings or marinades. It also emphasizes adding vegetables to each meal and favors fish over chicken. Whole grains, nuts and herbs are also used in larger amounts.
+        Foods to Eat
+        You should base your diet on these healthy, unprocessed Mediterranean food.
+        Vegetables: Tomatoes, broccoli, kale, spinach, onions, cauliflower, carrots, Brussels sprouts, cucumbers, etc.
+        Fruits: Apples, bananas, oranges, pears, strawberries, grapes, dates, figs, melons, peaches, etc.
+        Nuts and seeds: Almonds, walnuts, macadamia nuts, hazelnuts, cashews, sunflower seeds, pumpkin seeds, etc.
+        Legumes: Beans, peas, lentils, pulses, peanuts, chickpeas, etc.
+        Tubers: Potatoes, sweet potatoes, turnips, yams, etc.
+        Whole grains: Whole oats, brown rice, rye, barley, corn, buckwheat, whole wheat, whole-grain bread and pasta.
+        Fish and seafood: Salmon, sardines, trout, tuna, mackerel, shrimp, oysters, clams, crab, mussels, etc.
+        Poultry: Chicken, duck, turkey, etc.
+        Eggs: Chicken, quail and duck eggs.
+        Dairy: Cheese, yogurt, Greek yogurt, etc.
+        Herbs and spices: Garlic, basil, mint, rosemary, sage, nutmeg, cinnamon, pepper, etc.
+        Healthy Fats: Extra virgin olive oil, olives, avocados and avocado oil.
+        Whole, single-ingredient foods are the key to good health.
+        What to Drink
+        Water should be your go-to beverage on a Mediterranean diet.
+        This diet also includes moderate amounts of red wine — around 1 glass per day.
+        However, this is completely optional, and wine should be avoided by anyone with alcoholism or problems controlling their consumption.
+        Coffee and tea are also completely acceptable, but you should avoid sugar-sweetened beverages and fruit juices, which are very high in sugar.
+        `
+
     },
 
     {
         id: 'nutrition6',
-        url:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
-        detailUrl:'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
+        url: 'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
+        detailUrl: 'https://okamibio.com/wp-content/uploads/2020/12/raw-food-pyramid.jpg',
         video: 'https://www.youtube.com/watch?v=gLHUF8Tw_Dc',
         title: {
             shortTitle: 'Raw Food Diet',
             longTitle: 'Raw Food Diet'
         },
 
-        description: 'This is a diet that places a premium on eating uncooked and unprocessed foods. The diet eliminates the intake of any foods that have been pasteurized or produced with any kind of synthetics or additives. The diet is intended to create a surge in energy, a decrease in inflammation, while also lowering the number of carcinogens in one’s diet.'
+        description: `This is a diet that places a premium on eating uncooked and unprocessed foods. The diet eliminates the intake of any foods that have been pasteurized or produced with any kind of synthetics or additives. The diet is intended to create a surge in energy, a decrease in inflammation, while also lowering the number of carcinogens in one’s diet.
+        Here are foods that are considered raw:
+        Fresh produce
+        Whole, unprocessed foods such as cold-pressed oils, seaweed, or sweeteners like cocoa powder and maple syrup
+        Sprouted beans and grains
+        Here are foods that are not raw:
+        Foods heated above 118° Fahrenheit
+        Refined, processed, or pasteurized food
+        This simple checklist will help you while you’re in the store, but there are still a few things to look out for. Here are our tips:
+        Nuts and Seeds: In their raw form, these foods are perfect! However, you’ll need to make sure you aren’t buying any nuts or seeds that are roasted or processed into a nut butter.
+        Plant-Based Milk: The process for making plant-based milk might be raw, but most likely the process calls for it to be heated over 118°. Have no fear. You are able to make your own raw milk. Here is a recipe for sweet almond milk by Fully Raw Kristina. 
+        Frozen fruits and vegetables: Most frozen produce has been boiled prior to being frozen. If you’re looking to maintain a strict raw vegan diet, steer clear.
+        `
     },
 
-    
+
 ];
 
-export const workoutData= [
+export const workoutData = [
 
     {
         id: 'workout1',
-        url:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
-        detailUrl:'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
+        url: 'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
+        detailUrl: 'https://cdn.shopify.com/s/files/1/0005/5335/3267/articles/Banner_1_600x.jpg?v=1629365753',
         video: 'https://www.youtube.com/watch?v=fcN37TxBE_s',
-        title:{
-            shortTitle:'Cardio training (aerobic and anaerobic)',
-            longTitle:'Cardio training'
+        title: {
+            shortTitle: 'Cardio training (aerobic and anaerobic)',
+            longTitle: 'Cardio training'
         },
-        description:'Cardio is probably the most popular type of exercise out there — thanks, Jane Fonda and Richard Simmons. Cardio is also one area of exercise that offers limitless kinds of workouts: walking, running, cycling, cross-country skiing, swimming, dancing, you get the idea. Basically, anything that elevates your heart rate to a level above your resting heart rate is cardio. That said, there are also different categories of cardio both aerobic and anaerobic.'
+        description: `Cardio is probably the most popular type of exercise out there — thanks, Jane Fonda and Richard Simmons. Cardio is also one area of exercise that offers limitless kinds of workouts: walking, running, cycling, cross-country skiing, swimming, dancing, you get the idea. Basically, anything that elevates your heart rate to a level above your resting heart rate is cardio. 
+        That said, there are also different categories of cardio both aerobic and anaerobic.`
     },
 
     {
         id: 'workout2',
-        url:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
-        detailUrl:'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
+        url: 'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
+        detailUrl: 'https://visualimpactfitness.com/wp-content/uploads/2018/02/is-hiit-more-effective-than-steady-state-cardio.jpg',
         video: 'https://www.youtube.com/watch?v=ImI63BUUPwU',
-        title:{
-            shortTitle:'Steady state (aerobic)',
-            longTitle:'Steady state '
+        title: {
+            shortTitle: 'Steady state (aerobic)',
+            longTitle: 'Steady state '
         },
-        description:'This type of cardio refers to the pace of your workout and can involve any level of intensity. As the name suggests, the aim is to maintain a steady pace and intensity for the entire duration of your preferred workout.'
+        description: `This type of cardio refers to the pace of your workout and can involve any level of intensity. As the name suggests, the aim is to maintain a steady pace and intensity for the entire duration of your preferred workout.
+        Steady-state training is the opposite of HIIT yet, at the same time, is complementary to it. It involves maintaining a specific heart rate below your target maximum for an extended period of time. Using a treadmill workout as an example, with HIIT you walk for two minutes and then run all out for one minute. With SST, you walk at a brisk pace the whole way through. 
+        It's great for strengthening the heart: Maintaining a steady state of aerobic output forces the body to become efficient at pumping oxygenated blood through the body. A constant steady state also helps the body burn fat for fuel. There also is less chance of injury than when you change pace in high-intensity interval training.`
     },
 
     {
         id: 'workout3',
-        url:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
-        detailUrl:'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
+        url: 'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
+        detailUrl: 'https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/04/moderateExercise-500591410-770x553-1.jpg',
         video: 'https://www.youtube.com/watch?v=Z9nxS5tmQRI',
-        title:{
-            shortTitle:'Low- and moderate intensity (aerobic)',
-            longTitle:'Low- and moderate intensity '
+        title: {
+            shortTitle: 'Low- and moderate intensity (aerobic)',
+            longTitle: 'Low- and moderate intensity '
         },
-        description:'Low-intensity exercise can be measured as any exercise that keeps your heart rate below 50% of your MHR (maximum heart rate) — think a casual stroll or leisurely bike ride. Moderate-intensity workouts push your heart rate between 50%-70% of your MHR. In moderate intensity, you should be able to carry on a conversation and pass the talk test. Activities such as running, hiking, biking, swimming, fitness classes, should have you hitting the moderate-intensity bracket.'
+        description: `Low-intensity cardio training is when you work out at approximately 50%–70% of your maximum heart rate for a steady and sustained period — typically for around 10–60 minutes.
+        This style of cardio can be utilised for warming up before resistance training and cooling down afterwards and is well-suited to fasted cardio. Low-intensity cardio can also assist active recovery as it helps to improve blood flow and circulation to your working muscles. 
+        Low-intensity exercise can be measured as any exercise that keeps your heart rate below 50% of your MHR (maximum heart rate) — think a casual stroll or leisurely bike ride.
+        Moderate-intensity workouts push your heart rate between 50%-70% of your MHR. In moderate intensity, you should be able to carry on a conversation and pass the talk test. Activities such as running, hiking, biking, swimming, fitness classes, should have you hitting the moderate-intensity bracket.
+        Benefits of Moderate Exercise
+        Engaging regularly in moderate exercise can provide the following benefits:2
+        Reduced risk of major medical conditions such as heart disease, type 2 diabetes, and dementia
+        Sleep and sleep disorder improvements
+        Better brain function (memory, focus, and processing of information)
+        Weight-related benefits
+        Improved bone health
+        Mental health improvements, such as reduced depression and anxiety symptoms
+        `
     },
 
     {
         id: 'workout4',
-        url:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
-        detailUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
+        url: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
+        detailUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiit-1-1594691248.jpg?crop=0.667xw:1.00xh;0.0612xw,0&resize=480:*',
         video: 'https://www.youtube.com/watch?v=ml6cT4AZdqI',
-        title:{
-            shortTitle:'High-intensity and intervals (anaerobic)',
-            longTitle:'High-intensity and intervals'
+        title: {
+            shortTitle: 'High-intensity and intervals (anaerobic)',
+            longTitle: 'High-intensity and intervals'
         },
         description: `Now we’re entering the high-intensity zone. This is where you can expect to work pretty darn hard, elevating and maintaining your heart rate above 70% of your MHR. High-intensity workouts include sprints, some forms of resistance training, and what we at 8fit are known for, HIIT (high-intensity interval training).
         Intervals are when exercises are broken up into several parts (i.e., repetitions) and completed as part of the same workout (i.e., a round). They can be divided up into many forms, but the most common are blocks of time or distance.
         Intervals are often split into work-to-rest ratios, with high-intensity exercises like sprints or skipping rope constituting working intervals while lower intensity movements like walking or can be a short break as rest. A good rule of thumb regarding the work-to-rest ratio is as follows:
         Beginner (1:2): One part high-intensity interval followed by two parts lower intensity interval to allow the body to recover before hitting that high-intensity interval again.
-        Intermediate to advanced athlete (2:1): Here twice the amount of time or reps is devoted to high-intensity intervals, while half is allocated to recovery intervals.        
+        Intermediate to advanced athlete (2:1): Here twice the amount of time or reps is devoted to high-intensity intervals, while half is allocated to recovery intervals.
         `
     },
 
     {
         id: 'workout5',
-        url:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
-        detailUrl:'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
+        url: 'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
+        detailUrl: 'https://static.standard.co.uk/2021/03/10/10/john-arano-h4i9G-de7Po-unsplash.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart',
         video: 'https://www.youtube.com/watch?v=njGZClD94bg',
-        title:{
-            shortTitle:'Weight training (resistance training)',
-            longTitle:'Weight training'
+        title: {
+            shortTitle: 'Weight training (resistance training)',
+            longTitle: 'Weight training'
         },
         description: `A common misconception is that weight training will lead to one outcome and one outcome only — hypertrophy. But in fact, there are many goals you achieve through resistance training with weights in the form rep and set schemes along with the percentages of your 1Rm (1 rep max) that you are lifting.
-        1. Hypertrophy: Enlargement muscles by increasing size of cells in muscle fiber
-        2. Muscular endurance: Ability of muscles to exert tension over a long period of time
-        3. Muscular strength: The amount of force a muscle exerts in a single max. effort
-        4. Cardio training: Using weights or resistance to work your aerobic energy systems
+        Hypertrophy: Enlargement muscles by increasing size of cells in muscle fiber
+        Muscular endurance: Ability of muscles to exert tension over a long period of time
+        Muscular strength: The amount of force a muscle exerts in a single max. effort
+        Cardio training: Using weights or resistance to work your aerobic energy systems
         The last bullet point probably caught you off guard, but yes indeed, you can do cardio training through weight training as well. As long as you elevate your heart rate to higher than that of your RHR (resting heart rate), then you’re actually incorporating a cardio element to your workout.
         `
     },
 
     {
         id: 'workout6',
-        url:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
-        detailUrl:'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
+        url: 'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
+        detailUrl: 'https://cdn01.alison-static.net/courses/892/alison_courseware_intro_892.jpg',
         video: 'https://www.youtube.com/watch?v=jeNwE4VXqgs',
-        title:{
-            shortTitle:'Flexibility training',
-            longTitle:'Flexibility training'
+        title: {
+            shortTitle: 'Flexibility training',
+            longTitle: 'Flexibility training'
         },
-        description:'Flexibility is more than being able to touch your toes, it’s about general musculoskeletal health. While some people are born with natural flexibility, it doesn’t mean that those who aren’t are doomed to have it beyond their grasp. Exercises that facilitate flexibility and mobility, like stretching are often neglected or deemed as ‘not proper’ exercise, as exertion seems minimal at first glance. Disregarding this kind of training from your regular routine is actually doing you a disservice as compromised mobility can limit your range of motion, stunt your fitness goals, or in the worst case can lead to injury down the line. Here are some styles of flexibility training that both complement different types of workouts, as well as include strength elements within them.'
+        description: `Flexibility is more than being able to touch your toes, it’s about general musculoskeletal health. While some people are born with natural flexibility, 
+        it doesn’t mean that those who aren’t are doomed to have it beyond their grasp. Exercises that facilitate flexibility and mobility, like stretching are often neglected or deemed as ‘not proper’ exercise, as exertion seems minimal at first glance. Disregarding this kind of training from your regular routine is actually doing you a disservice as compromised mobility can limit your range of motion, stunt your fitness goals, or in the worst case can lead to injury down the line.`
     },
 
     {
         id: 'workout7',
-        url:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
-        detailUrl:'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
+        url: 'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
+        detailUrl: 'https://images.squarespace-cdn.com/content/v1/5fdc3f44ff99f865bfebc0c3/1612425093964-OHJ3RZT63G7RU7X8EVY0/IMG_1745%252B%2525281%252529.jpg',
         video: 'https://www.youtube.com/watch?v=K56Z12XNQ5c',
-        title:{
-            shortTitle:'Pilates',
-            longTitle:'Pilates'
+        title: {
+            shortTitle: 'Pilates',
+            longTitle: 'Pilates'
         },
-        description:'Developed by Joseph Pilates, this method of exercise incorporates controlled movements with an emphasis on alignment, breathing and building the core—referred to by Pilates instructors as the “Powerhouse”. Over time Pilates will not only increase flexibility but help improve coordination, balance and all-round stability.'
+        description: `Developed by Joseph Pilates, this method of exercise incorporates controlled movements with an emphasis on alignment, breathing and building the core—referred to by Pilates instructors as the “Powerhouse”. Over time Pilates will not only increase flexibility but help improve coordination, balance and all-round stability.
+        Pilates exercises, in conjunction with your breath, employ all of your body’s muscles. It’s known for targeting smaller and deeper stabilization muscles and often explained as working from the inside out.
+        Pilates supports your body’s structure through a balance of strength, mobility, and flexibility, with every exercise engaging your core. It can involve matwork or low impact bodyweight exercises, or it can be done on specialized equipment.
+        Pilates offers numerous benefits. Maintaining a strong core through Pilates helps relieve low back pain, improves balance, and decreases the risk of falling What’s more, Pilates has been shown to improve your quality of life, including exerting positive effects on depression and anxiety.
+        Pilates is a low impact exercise comprising controlled movements that enhance your balance, core strength, mobility, flexibility, and even mood. It focuses on the smaller and deeper muscles that support your structure and enhance your overall health.
+        `
     },
 
 ];
