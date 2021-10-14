@@ -23,6 +23,7 @@ const theme = {
 };
 
 
+
 class SimpleForm extends Component {
   render() {
     return (
@@ -48,9 +49,11 @@ class SimpleForm extends Component {
               options: [
                 { value: 'y', label: 'BMI calculator', trigger: 'yes-response' },
                 { value: 'n', label: 'Different Body Types', trigger: 'no-response' },
-                { value: 'e', label: 'Exit', trigger: 'exit-response' },
+                { value: 'a', label: 'Trainers', trigger: 'trainer' },
+                // { value: 'e', label: 'Exit', trigger: 'exit-response' },
               ]
             },
+          
             //BMI calculator
             {
               id: 'yes-response',
@@ -123,16 +126,14 @@ class SimpleForm extends Component {
             },
             {
               id: 'yes1',
-              message: `Ectomorphs should consume complex carbohydrates found in foods like beans, whole grains, and vegetables, 
-            rather than simple carbohydrates from highly processed foods, like potato chips and white bread.
+              message: `Ectomorphs should consume complex carbohydrates found in foods like beans, whole grains, and vegetables.
             `,
             trigger:'intro1',
             
             },
             {
               id: 'no1',
-              message: ` For an ectomorph, cardio shouldn’t be the main emphasis of a workout. Experts suggest keeping aerobic training to a minimum and focusing on building muscle with activities like resistance training. 
-              This kind of physical activity allows ectomorphs to build mass but burn the fewest calories.
+              message: ` For an ectomorph experts suggest that aerobic training and resistance training are the preferred type of workout.
             `,
             trigger:'intro1',
             },
@@ -152,21 +153,19 @@ class SimpleForm extends Component {
             {
               id: 'yesno2',
               options: [
-                { label: 'Diet Plan', trigger: 'yes2' },
-                {  label: 'Workout Plan', trigger: 'no2' },
+                {value: 'yy', label: 'Diet Plan', trigger: 'yes2' },
+                { value: 'nn', label: 'Workout Plan', trigger: 'no2' },
               ]
             },
             {
               id: 'yes2',
-              message: `Mesomorphs typically require a higher calorie intake and, according to some nutritionists, 
-              their diets should contain more protein than either of the other body types. Most experts point to a diet of roughly equal parts protein, fats, and carbs.
+              message: `Mesomorphs typically require a higher calorie intake and it should contain more protein. Most experts point to a diet of roughly equal parts protein, fats, and carbs.
             `,
             trigger:'intro1',
             },
             {
               id: 'no2',
-              message: `When it comes to working out, mesomorphs may have an easier time building muscle, but they typically also gain weight quickly if they stop training. 
-              Mesomorphs would do well to keep a consistent regimen of 30-45 minutes of cardio scheduled three to five times a week.
+              message: `Mesomorphs would do well to keep a consistent regimen of 30-45 minutes of cardio scheduled three to five times a week.
             `,
             trigger:'intro1',
             },
@@ -191,25 +190,73 @@ class SimpleForm extends Component {
             },
             {
               id: 'yes3',
-              message: `mesomorphs typically require a higher calorie intake and, according to some nutritionists, 
-              their diets should contain more protein than either of the other body types. Most experts point to a diet of roughly equal parts protein, fats, and carbs.
+              message: `According to nutritionists, endomorphs should intake more toward proteins, fats and carbs.
             `,
               trigger: 'intro1',
             },
             {
               id: 'no3',
               message: `For exercise, endomorphs should focus primarily on aerobic activities like running, biking, or even dancing.
-               While some exercise experts suggest 30 minutes of moderate aerobic activity 5 days a week, others recommend incorporating activities like high-intensity interval training two or three times a week.
             `,
             trigger:'intro1',
             },
+              //trainers
+              {
+                id: 'trainer',
+                options: [
+                  { value: 't1', label: 'Trainer 1', trigger: 't1' },
+                  { value: 't2', label: 'Trainer 2', trigger: 't2' },
+                  { value: 't2', label: 'Trainer 3', trigger: 't3' },
+                  { value: 't2', label: 'Trainer 4', trigger: 't4' },
+                ]
+              },
+              //first trainer
+              {
+                id: 't1',
+                component: (
+                  <div> Add trainers details <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                ),
+                asMessage: true,
+                // trigger: '',
+                
+              },
+                //second trainer
+                {
+                  id: 't2',
+                  component: (
+                    <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                  ),
+                  asMessage: true,
+                  // trigger: '',
+                  
+                },
+                  //thirdtrainer
+              {
+                id: 't3',
+                component: (
+                  <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                ),
+                asMessage: true,
+                // trigger: '',
+                
+              },
+                //fourth trainer
+                {
+                  id: 't4',
+                  component: (
+                    <div> Add trainers details  <a href="" style={{color:'green', textDecoration: 'none'}} target="_blank">youtube</a> </div>
+                  ),
+                  asMessage: true,
+                  // trigger: '',
+                  
+                },
 
-            //exit button
-            {
-              id: 'exit-response',
-              message: 'ThankYou! Have a good day!',
-              end: true,
-            },
+            // //exit button
+            // {
+            //   id: 'exit-response',
+            //   message: 'ThankYou! Have a good day!',
+            //   end: true,
+            // },
 
           ]}
           {...config}
