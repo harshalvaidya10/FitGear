@@ -33,8 +33,10 @@ const useStyles = makeStyles(theme => ({
     },
     rightContainer: {
         marginTop: 50,
+        marginLeft: 300,
         '& > *': {
-            marginTop: 10
+            marginTop: 10,
+
         }
     },
     productImage: {
@@ -50,25 +52,35 @@ const useStyles = makeStyles(theme => ({
     },
     greyTextColor: {
         color: '#878787'
-    }
+    },
+    title: {
+        fontSize: 30,
+        fontWeight: 'bold',
+    },
+    description: {
+        marginRight: 45,
+    },
+    video: {
+        marginLeft: 110,
+    },
 }));
 
-const data = { 
+const data = {
     id: '',
-    url: '', 
+    url: '',
     detailUrl: '',
     title: {
         shortTitle: '',
         longTitle: '',
-    }, 
+    },
     price: {
         mrp: 0,
         cost: 0,
         discount: ''
     },
     description: '',
-    discount: '', 
-    tagline: '' 
+    discount: '',
+    tagline: ''
 };
 
 const WorkoutNutritionView = ({ history, match }) => {
@@ -84,9 +96,9 @@ const WorkoutNutritionView = ({ history, match }) => {
     const { loading, product } = productDetails;
 
     const dispatch = useDispatch();
-    
+
     useEffect(() => {
-        if(product && match.params.id !== product.id)   
+        if (product && match.params.id !== product.id)
             dispatch(getProductDetails(match.params.id));
     }, [dispatch, product, match, loading]);
 
@@ -104,24 +116,24 @@ const WorkoutNutritionView = ({ history, match }) => {
 
     return (
         <Box className={classes.component}>
-            { product && Object.keys(product).length &&
-                <Grid container className={classes.container}> 
+            {product && Object.keys(product).length &&
+                <Grid container className={classes.container}>
                     <Grid item lg={4} md={4} sm={8} xs={12}>
-                    <Box className={classes.leftContainer}>
+                        {/* <Box className={classes.leftContainer}>
                 <img src={product.detailUrl} className={classes.productImage} /><br />
                 
-        </Box>
+        </Box> */}
                     </Grid>
                     <Grid item lg={8} md={8} sm={8} xs={12} className={classes.rightContainer}>
-                    <div className={classes.video}>
-                        <ReactPlayer controls  url={product.video}/>
+                        <div className={classes.video}>
+                            <ReactPlayer controls url={product.video} />
                         </div>
-                        <Typography>{product.title.shortTitle}</Typography>
-                        <Typography>{product.description}</Typography>
+                        <Typography className={classes.title}>{product.title.shortTitle}</Typography>
+                        <Typography className={classes.description}>{product.description}</Typography>
                         {/* <ProductDetail product={product} /> */}
                     </Grid>
                 </Grid>
-            }   
+            }
         </Box>
     )
 }
