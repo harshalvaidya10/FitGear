@@ -35,7 +35,7 @@ class SimpleForm extends Component {
 
             {
               id: 'intro',
-              message: 'Hello! I am Jaadu. How may I help you?',
+              message: 'Hello! I am Chandramukhi. How may I help you?',
               trigger: 'intro1'
             },
 
